@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/autolabor/ros/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/autolabor/vision_opencv_ws/install/lib/python3.6/site-packages",
+        "%PYTHONPATH",
+        "/home/autolabor/anaconda3/envs/ros/bin/python3.6m"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/autolabor/ros/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/autolabor/vision_opencv_ws/install/lib/python3.6/site-packages",
+        "%PYTHONPATH",
+        "/home/autolabor/anaconda3/envs/ros/bin/python3.6m"
+    ]
+}

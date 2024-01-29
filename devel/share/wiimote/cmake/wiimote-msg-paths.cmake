@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/wiimote/share/wiimote/cmake/wiimote-msg-paths.cmake

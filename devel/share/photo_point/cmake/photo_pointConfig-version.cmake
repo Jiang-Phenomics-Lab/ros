@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/photo_point/share/photo_point/cmake/photo_pointConfig-version.cmake

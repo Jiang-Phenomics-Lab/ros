@@ -1,0 +1,9 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/ah100b.dir/src/ah100b.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/ah100b/lib/ah100b/ah100b[0m
+[ 33%] Built target ah100b
+[ 50%] [32mBuilding CXX object CMakeFiles/ah100b_fix.dir/src/ah100b_fix.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/ah100b/lib/ah100b/ah100b_fix[0m
+[ 66%] Built target ah100b_fix
+[ 83%] [32mBuilding CXX object CMakeFiles/ah100b_tf.dir/src/ah100b_tf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/ah100b/lib/ah100b/ah100b_tf[0m
+[100%] Built target ah100b_tf

@@ -1,0 +1,29 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target costmap_converter_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target costmap_converter_generate_messages_eus
+[  0%] Built target costmap_converter_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target costmap_converter_generate_messages_lisp
+[  0%] Built target costmap_converter_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target teb_local_planner_gencfg
+[  3%] Built target _teb_local_planner_generate_messages_check_deps_TrajectoryPointMsg
+[  3%] Built target _teb_local_planner_generate_messages_check_deps_TrajectoryMsg
+[  3%] Built target _teb_local_planner_generate_messages_check_deps_FeedbackMsg
+[ 13%] Built target teb_local_planner_generate_messages_cpp
+[ 23%] Built target teb_local_planner_generate_messages_lisp
+[ 36%] Built target teb_local_planner_generate_messages_py
+[ 50%] Built target teb_local_planner_generate_messages_eus
+[ 60%] Built target teb_local_planner_generate_messages_nodejs
+[ 60%] Built target teb_local_planner_generate_messages
+[35m[1mConsolidate compiler generated dependencies of target teb_local_planner[0m
+[ 93%] Built target teb_local_planner
+[35m[1mConsolidate compiler generated dependencies of target test_optim_node[0m
+[100%] Built target test_optim_node

@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/rviz_navigation_tools/cmake/rviz_navigation_toolsConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/rviz_navigation_tools/cmake/rviz_navigation_toolsConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libnavigation_tools_panel.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/rviz_navigation_tools.pc

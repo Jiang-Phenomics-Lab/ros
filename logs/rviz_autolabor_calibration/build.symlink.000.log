@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/rviz_autolabor_calibration/cmake/rviz_autolabor_calibrationConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/rviz_autolabor_calibration/cmake/rviz_autolabor_calibrationConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libautolabor_calibration_panel.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/rviz_autolabor_calibration.pc

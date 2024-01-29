@@ -1,0 +1,5 @@
+[ 20%] Built target image_publisher_gencfg
+[35m[1mConsolidate compiler generated dependencies of target image_publisher_exe[0m
+[ 60%] Built target image_publisher_exe
+[35m[1mConsolidate compiler generated dependencies of target image_publisher[0m
+[100%] Built target image_publisher

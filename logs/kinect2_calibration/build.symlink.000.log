@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_calibration/cmake/kinect2_calibrationConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_calibration/cmake/kinect2_calibrationConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/kinect2_calibration/kinect2_calibration
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/kinect2_calibration.pc

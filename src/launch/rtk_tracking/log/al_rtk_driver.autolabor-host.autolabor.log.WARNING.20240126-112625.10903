@@ -1,0 +1,10 @@
+Log file created at: 2024/01/26 11:26:25
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240126 11:26:25.460381 10903 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240126 11:26:25.461107 10903 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 11:26:45.463042 10903 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240126 11:26:45.463203 10903 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 11:27:05.470573 10903 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240126 11:27:05.470791 10903 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

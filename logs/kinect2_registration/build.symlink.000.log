@@ -1,0 +1,5 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_registration/cmake/kinect2_registrationConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_registration/cmake/kinect2_registrationConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_registration/cmake/kinect2_registration.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libkinect2_registration.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/kinect2_registration.pc

@@ -1,0 +1,22 @@
+Log file created at: 2024/01/26 11:22:51
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240126 11:22:51.589474 10903 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240126 11:22:51.667255 10903 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 11:22:51.667906 10903 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 11:22:53.668027 10903 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 11:22:57.668479 10903 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240126 11:22:57.668548 10903 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 11:22:57.803602 10903 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 11:22:57.803686 10903 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+I20240126 11:22:57.803743 10903 al_rtk_raw_driver.cpp:286] send first gpgga to ntrip service :$GPGGA,032257.00,4000.19817470,N,11622.41568506,E,1,25,0.7,40.8218,M,-9.2300,M,,*45
+  1
+E20240126 11:26:25.460381 10903 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240126 11:26:25.461107 10903 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 11:26:30.548094 10903 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240126 11:26:45.463042 10903 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240126 11:26:45.463203 10903 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 11:26:50.504470 10903 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240126 11:27:05.470573 10903 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240126 11:27:05.470791 10903 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/share/common-lisp/ros/autolabor_pro1_driver/msg/_package_Encode.lisp

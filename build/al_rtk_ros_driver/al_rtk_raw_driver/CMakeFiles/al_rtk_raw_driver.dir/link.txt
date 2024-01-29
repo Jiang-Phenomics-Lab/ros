@@ -1,0 +1,2 @@
+/usr/bin/ar qc libal_rtk_raw_driver.a CMakeFiles/al_rtk_raw_driver.dir/src/al_rtk_raw_driver.cpp.o CMakeFiles/al_rtk_raw_driver.dir/src/base64.cpp.o
+/usr/bin/ranlib libal_rtk_raw_driver.a

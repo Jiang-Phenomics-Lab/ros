@@ -1,0 +1,12 @@
+Symlinking /home/autolabor/catkin_ws/devel/include/image_rotate/ImageRotateConfig.h
+Symlinking /home/autolabor/catkin_ws/devel/share/image_rotate/cmake/image_rotateConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/image_rotate/cmake/image_rotateConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/image_rotate/docs/ImageRotateConfig-usage.dox
+Symlinking /home/autolabor/catkin_ws/devel/share/image_rotate/docs/ImageRotateConfig.wikidoc
+Symlinking /home/autolabor/catkin_ws/devel/share/image_rotate/docs/ImageRotateConfig.dox
+Symlinking /home/autolabor/catkin_ws/devel/lib/libimage_rotate.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_rotate/image_rotate
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/image_rotate/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/image_rotate/cfg/ImageRotateConfig.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/image_rotate/cfg/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/image_rotate.pc

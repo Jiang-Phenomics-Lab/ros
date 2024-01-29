@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/install
+
+Name: rslidar_sdk
+Description: Description of rslidar_sdk
+Version: 1.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs roslib pcl_conversions

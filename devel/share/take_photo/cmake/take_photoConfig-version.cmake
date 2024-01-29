@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/take_photo/share/take_photo/cmake/take_photoConfig-version.cmake

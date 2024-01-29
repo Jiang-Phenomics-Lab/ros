@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/stereo_image_proc/lib/pkgconfig/stereo_image_proc.pc

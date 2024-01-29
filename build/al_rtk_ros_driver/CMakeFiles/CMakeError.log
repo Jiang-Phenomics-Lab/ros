@@ -1,0 +1,310 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e6df4/fast && /usr/bin/make  -f CMakeFiles/cmTC_e6df4.dir/build.make CMakeFiles/cmTC_e6df4.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e6df4.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_e6df4.dir/src.c.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6df4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6df4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e6df4.dir/src.c.o -o cmTC_e6df4 
+CMakeFiles/cmTC_e6df4.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.c:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x67)：对‘pthread_join’未定义的引用
+src.c:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e6df4.dir/build.make:98: recipe for target 'cmTC_e6df4' failed
+make[1]: *** [cmTC_e6df4] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_e6df4/fast' failed
+make: *** [cmTC_e6df4/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_152f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_152f4.dir/build.make CMakeFiles/cmTC_152f4.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_152f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_152f4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_152f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_152f4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_152f4.dir/CheckFunctionExists.c.o -o cmTC_152f4  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_152f4.dir/build.make:98: recipe for target 'cmTC_152f4' failed
+make[1]: *** [cmTC_152f4] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_152f4/fast' failed
+make: *** [cmTC_152f4/fast] Error 2
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eefef/fast && /usr/bin/make  -f CMakeFiles/cmTC_eefef.dir/build.make CMakeFiles/cmTC_eefef.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_eefef.dir/HAVE___UINT16.cpp.o
+/usr/bin/c++   -fPIE -std=gnu++11 -o CMakeFiles/cmTC_eefef.dir/HAVE___UINT16.cpp.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:22: error: expected primary-expression before ‘unsigned’
+ #define SIZE (sizeof(unsigned __int16))
+                      ^
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:22: error: expected ‘)’ before ‘unsigned’
+ #define SIZE (sizeof(unsigned __int16))
+                      ^
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:38:7: error: expected ‘)’ before ‘}’ token
+   '\0'};
+       ^
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:38:7: error: expected ‘)’ before ‘}’ token
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:38:7: error: expected ‘)’ before ‘}’ token
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:38:7: error: expected ‘)’ before ‘}’ token
+CMakeFiles/cmTC_eefef.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_eefef.dir/HAVE___UINT16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_eefef.dir/HAVE___UINT16.cpp.o] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_eefef/fast' failed
+make: *** [cmTC_eefef/fast] Error 2
+
+
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ec8d/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ec8d.dir/build.make CMakeFiles/cmTC_1ec8d.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1ec8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr -fPIE -o CMakeFiles/cmTC_1ec8d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ec8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ec8d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr CMakeFiles/cmTC_1ec8d.dir/CheckFunctionExists.c.o -o cmTC_1ec8d 
+CMakeFiles/cmTC_1ec8d.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x10)：对‘dladdr’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1ec8d.dir/build.make:98: recipe for target 'cmTC_1ec8d' failed
+make[1]: *** [cmTC_1ec8d] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_1ec8d/fast' failed
+make: *** [cmTC_1ec8d/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a442f/fast && /usr/bin/make  -f CMakeFiles/cmTC_a442f.dir/build.make CMakeFiles/cmTC_a442f.dir/build
+make[1]: Entering directory '/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a442f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -fPIE   -Wunnamed-type-template-args -std=gnu++11 -o CMakeFiles/cmTC_a442f.dir/src.cxx.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wunnamed-type-template-args'
+CMakeFiles/cmTC_a442f.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_a442f.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a442f.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_a442f/fast' failed
+make: *** [cmTC_a442f/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_threadid_np exist failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_06bed/fast && /usr/bin/make  -f CMakeFiles/cmTC_06bed.dir/build.make CMakeFiles/cmTC_06bed.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_06bed.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fPIE -std=gnu++11 -o CMakeFiles/cmTC_06bed.dir/CheckSymbolExists.cxx.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘pthread_threadid_np’ was not declared in this scope
+   return ((int*)(&pthread_threadid_np))[argc];
+                   ^~~~~~~~~~~~~~~~~~~
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘pthread_tryjoin_np’
+   return ((int*)(&pthread_threadid_np))[argc];
+                   ^~~~~~~~~~~~~~~~~~~
+                   pthread_tryjoin_np
+CMakeFiles/cmTC_06bed.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_06bed.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_06bed.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_06bed/fast' failed
+make: *** [cmTC_06bed/fast] Error 2
+
+
+File /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_threadid_np
+  return ((int*)(&pthread_threadid_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7db39/fast && /usr/bin/make  -f CMakeFiles/cmTC_7db39.dir/build.make CMakeFiles/cmTC_7db39.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7db39.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE -o CMakeFiles/cmTC_7db39.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7db39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7db39.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName CMakeFiles/cmTC_7db39.dir/CheckFunctionExists.c.o -o cmTC_7db39  -ldbghelp 
+/usr/bin/ld: 找不到 -ldbghelp
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7db39.dir/build.make:98: recipe for target 'cmTC_7db39' failed
+make[1]: *** [cmTC_7db39] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_7db39/fast' failed
+make: *** [cmTC_7db39/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0c46e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c46e.dir/build.make CMakeFiles/cmTC_0c46e.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0c46e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___DECLSPEC  -fPIE -std=gnu++11 -o CMakeFiles/cmTC_0c46e.dir/src.cxx.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+ __declspec(selectany) int a;
+           ^
+CMakeFiles/cmTC_0c46e.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_0c46e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0c46e.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_0c46e/fast' failed
+make: *** [cmTC_0c46e/fast] Error 2
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33ad2/fast && /usr/bin/make  -f CMakeFiles/cmTC_33ad2.dir/build.make CMakeFiles/cmTC_33ad2.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_33ad2.dir/src.cxx.o
+/usr/bin/c++ -DSTL_NO_NAMESPACE  -fPIE -std=gnu++11 -o CMakeFiles/cmTC_33ad2.dir/src.cxx.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
+ vector<int> t; int main() { }
+ ^~~~~~
+CMakeFiles/cmTC_33ad2.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_33ad2.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_33ad2.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_33ad2/fast' failed
+make: *** [cmTC_33ad2/fast] Error 2
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_446f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_446f3.dir/build.make CMakeFiles/cmTC_446f3.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_446f3.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_MSVC_TLS  -fPIE -std=gnu++11 -o CMakeFiles/cmTC_446f3.dir/src.cxx.o -c /opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx
+/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+ __declspec(thread) int tls;
+           ^
+CMakeFiles/cmTC_446f3.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_446f3.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_446f3.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/al_rtk_ros_driver/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_446f3/fast' failed
+make: *** [cmTC_446f3/fast] Error 2
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+

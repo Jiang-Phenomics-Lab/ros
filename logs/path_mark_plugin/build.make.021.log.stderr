@@ -1,0 +1,31 @@
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In member function ‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::photo_point_callback(int, int)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:274:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+  [01;31m[Kelse[m[K
+  [01;31m[K^~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:274:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+In file included from [01m[K/opt/ros/melodic/include/class_loader/class_loader.hpp:47:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/class_list_macros.h:35[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:281[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:53:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   [01;31m[K}[m[K  // namespace
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:56:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K(Derived, Base, UniqueID, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:283:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+ [01;36m[KP[m[KLUGINLIB_EXPORT_CLASS(autolabor_plugin1::PathMarkPlugin, rviz::Panel)
+ [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+make: *** [all] Error 2

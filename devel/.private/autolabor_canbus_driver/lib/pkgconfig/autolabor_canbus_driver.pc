@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/autolabor_canbus_driver
+
+Name: autolabor_canbus_driver
+Description: Description of autolabor_canbus_driver
+Version: 0.0.0
+Cflags: -I/home/autolabor/catkin_ws/devel/.private/autolabor_canbus_driver/include -I/home/autolabor/catkin_ws/src/driver/car/autolabor_canbus_driver/include
+Libs: -L${prefix}/lib 
+Requires: roscpp tf std_msgs geometry_msgs nav_msgs message_runtime

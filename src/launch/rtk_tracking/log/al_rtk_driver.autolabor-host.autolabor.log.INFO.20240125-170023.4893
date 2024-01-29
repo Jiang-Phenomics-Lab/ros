@@ -1,0 +1,29 @@
+Log file created at: 2024/01/25 17:00:23
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240125 17:00:23.412814  4893 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240125 17:00:23.507406  4893 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240125 17:00:23.507737  4893 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240125 17:00:25.507833  4893 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240125 17:00:29.508247  4893 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240125 17:00:29.508334  4893 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240125 17:00:29.645323  4893 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240125 17:00:29.645372  4893 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240125 17:00:44.511883  4893 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240125 17:00:44.512164  4893 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240125 17:00:44.530889  4893 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+E20240125 17:00:44.665100  4893 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240125 17:00:44.665194  4893 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240125 17:00:49.516937  4893 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240125 17:00:49.517318  4893 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240125 17:00:51.517423  4893 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240125 17:00:55.517892  4893 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240125 17:00:55.721103  4893 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240125 17:01:04.581596  4893 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240125 17:01:04.581709  4893 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240125 17:01:04.614197  4893 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240125 17:01:09.615748  4893 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240125 17:01:09.616175  4893 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240125 17:01:11.616287  4893 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240125 17:01:15.616693  4893 al_rtk_raw_driver.cpp:266] rtk device initialized.

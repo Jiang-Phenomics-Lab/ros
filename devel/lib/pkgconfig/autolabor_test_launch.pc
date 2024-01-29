@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_test_launch/lib/pkgconfig/autolabor_test_launch.pc

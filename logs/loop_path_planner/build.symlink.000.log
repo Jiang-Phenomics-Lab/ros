@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/loop_path_planner/cmake/loop_path_plannerConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/loop_path_planner/cmake/loop_path_plannerConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libloop_path_planner.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/loop_path_planner.pc

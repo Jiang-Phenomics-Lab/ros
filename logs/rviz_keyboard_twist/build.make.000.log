@@ -1,0 +1,6 @@
+[ 25%] [34m[1mAutomatic MOC for target keyboard_twist_panel[0m
+[ 25%] Built target keyboard_twist_panel_autogen
+[ 50%] [32mBuilding CXX object CMakeFiles/keyboard_twist_panel.dir/keyboard_twist_panel_autogen/mocs_compilation.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/keyboard_twist_panel.dir/src/keyboard_twist_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/rviz_keyboard_twist/lib/libkeyboard_twist_panel.so[0m
+[100%] Built target keyboard_twist_panel

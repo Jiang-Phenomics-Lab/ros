@@ -1,0 +1,10 @@
+Log file created at: 2024/01/25 17:00:44
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240125 17:00:44.511883  4893 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240125 17:00:44.512164  4893 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240125 17:00:44.665100  4893 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240125 17:00:44.665194  4893 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240125 17:01:04.581596  4893 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240125 17:01:04.581709  4893 al_rtk_raw_driver.cpp:591] serial disconnect

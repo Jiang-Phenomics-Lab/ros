@@ -1,0 +1,5 @@
+[ 14%] Built target stereo_image_proc_gencfg
+[35m[1mConsolidate compiler generated dependencies of target stereo_image_proc[0m
+[ 71%] Built target stereo_image_proc
+[35m[1mConsolidate compiler generated dependencies of target stereoimageproc_exe[0m
+[100%] Built target stereoimageproc_exe

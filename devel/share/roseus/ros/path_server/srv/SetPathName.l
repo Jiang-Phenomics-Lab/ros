@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/path_server/share/roseus/ros/path_server/srv/SetPathName.l

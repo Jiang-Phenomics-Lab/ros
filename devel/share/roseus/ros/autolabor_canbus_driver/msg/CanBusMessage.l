@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_canbus_driver/share/roseus/ros/autolabor_canbus_driver/msg/CanBusMessage.l

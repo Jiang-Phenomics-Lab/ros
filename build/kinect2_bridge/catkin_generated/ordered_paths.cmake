@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/autolabor/catkin_ws/devel/.private/kinect2_registration/lib;/opt/ros/melodic/lib")

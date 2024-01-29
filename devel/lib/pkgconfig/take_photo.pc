@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/take_photo/lib/pkgconfig/take_photo.pc

@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/loop_path_planner/lib/pkgconfig/loop_path_planner.pc

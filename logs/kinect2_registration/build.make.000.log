@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/kinect2_registration.dir/src/kinect2_registration.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kinect2_registration.dir/src/depth_registration_cpu.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/kinect2_registration/lib/libkinect2_registration.so[0m
+[100%] Built target kinect2_registration

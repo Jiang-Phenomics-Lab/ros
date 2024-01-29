@@ -1,0 +1,5 @@
+ros_yolo
+/home/autolabor/catkin_ws/devel/.private/ros_yolo/cmake.lock /home/autolabor/catkin_ws/devel/./cmake.lock
+/home/autolabor/catkin_ws/devel/.private/ros_yolo/share/ros_yolo/cmake/ros_yoloConfig-version.cmake /home/autolabor/catkin_ws/devel/share/ros_yolo/cmake/ros_yoloConfig-version.cmake
+/home/autolabor/catkin_ws/devel/.private/ros_yolo/share/ros_yolo/cmake/ros_yoloConfig.cmake /home/autolabor/catkin_ws/devel/share/ros_yolo/cmake/ros_yoloConfig.cmake
+/home/autolabor/catkin_ws/devel/.private/ros_yolo/lib/pkgconfig/ros_yolo.pc /home/autolabor/catkin_ws/devel/lib/pkgconfig/ros_yolo.pc

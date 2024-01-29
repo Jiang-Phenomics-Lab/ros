@@ -1,0 +1,86 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_be8b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_be8b5.dir/build.make CMakeFiles/cmTC_be8b5.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_be8b5.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_be8b5.dir/src.c.o -c /opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_be8b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be8b5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_be8b5.dir/src.c.o -o cmTC_be8b5 
+CMakeFiles/cmTC_be8b5.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.c:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x67)：对‘pthread_join’未定义的引用
+src.c:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_be8b5.dir/build.make:98: recipe for target 'cmTC_be8b5' failed
+make[1]: *** [cmTC_be8b5] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_be8b5/fast' failed
+make: *** [cmTC_be8b5/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_865b2/fast && /usr/bin/make  -f CMakeFiles/cmTC_865b2.dir/build.make CMakeFiles/cmTC_865b2.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_865b2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_865b2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_865b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_865b2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_865b2.dir/CheckFunctionExists.c.o -o cmTC_865b2  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_865b2.dir/build.make:98: recipe for target 'cmTC_865b2' failed
+make[1]: *** [cmTC_865b2] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_865b2/fast' failed
+make: *** [cmTC_865b2/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0069e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0069e.dir/build.make CMakeFiles/cmTC_0069e.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0069e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_0069e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0069e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0069e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_0069e.dir/CheckFunctionExists.c.o -o cmTC_0069e 
+CMakeFiles/cmTC_0069e.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x10)：对‘sgemm_’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0069e.dir/build.make:98: recipe for target 'cmTC_0069e' failed
+make[1]: *** [cmTC_0069e] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/cartographer/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_0069e/fast' failed
+make: *** [cmTC_0069e/fast] Error 2
+
+
+

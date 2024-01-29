@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/path_server/include/path_server/SetPointNameResponse.h

@@ -1,0 +1,84 @@
+Log file created at: 2024/01/26 10:27:46
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240126 10:27:46.246719  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:27:46.247264  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:28:06.378998  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:28:06.379154  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:28:26.623153  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:28:26.623277  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:28:46.835475  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:28:46.835584  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:29:08.002804  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:29:08.002990  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:29:28.155503  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:29:28.155656  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:29:49.830826  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:29:49.830976  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:30:11.778636  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:30:11.778760  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:30:31.914441  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:30:31.914590  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:30:54.572238  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:30:54.572347  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:31:14.719776  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:31:14.719974  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:31:34.840158  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:31:34.840281  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:31:55.135347  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:31:55.135496  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:32:15.276381  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:32:15.276504  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:32:35.421267  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:32:35.421393  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:32:55.742136  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:32:55.742317  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:33:15.870399  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:33:15.870515  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:33:36.054653  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:33:36.054801  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:33:56.202648  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:33:56.202826  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:34:16.341473  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:34:16.341578  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:34:36.489286  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:34:36.489403  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:34:56.761407  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:34:56.761562  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:35:16.907649  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:35:16.907796  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:35:37.051954  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:35:37.052111  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:35:57.182384  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:35:57.182495  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:36:17.383316  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:36:17.383440  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:36:39.360646  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:36:39.360771  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:36:59.500797  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:36:59.500931  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:37:19.662987  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:37:19.663137  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:37:39.865382  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:37:39.865509  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:38:00.020411  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:38:00.020486  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:38:20.157961  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:38:20.158109  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:38:40.348094  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:38:40.348215  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:39:00.486970  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:39:00.487134  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:39:20.623304  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:39:20.623447  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:39:40.893455  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:39:40.893646  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:40:01.009485  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:40:01.009617  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:40:21.126631  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:40:21.126785  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:40:41.275295  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:40:41.275388  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:41:01.407735  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:41:01.407866  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

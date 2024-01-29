@@ -1,0 +1,9 @@
+Log file created at: 2024/01/26 11:27:29
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240126 11:27:29.761546 11706 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240126 11:27:30.386379 11706 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 11:27:30.387032 11706 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 11:27:32.387133 11706 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 11:27:36.387580 11706 al_rtk_raw_driver.cpp:266] rtk device initialized.

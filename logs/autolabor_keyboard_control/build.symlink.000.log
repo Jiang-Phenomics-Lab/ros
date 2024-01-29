@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/autolabor_keyboard_control/cmake/autolabor_keyboard_controlConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/autolabor_keyboard_control/cmake/autolabor_keyboard_controlConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/autolabor_keyboard_control.pc
+Symlinking /home/autolabor/catkin_ws/devel/lib/autolabor_keyboard_control/keyboard_control_node

@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/share/roseus/ros/autolabor_pro1_driver/manifest.l

@@ -1,0 +1,123 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target path_server_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target path_server_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target rviz_generate_messages_eus
+[  0%] Built target path_server_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target rviz_generate_messages_cpp
+[  0%] Built target rviz_generate_messages_py
+[  0%] Built target path_server_generate_messages_eus
+[  0%] Built target path_server_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rviz_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target rviz_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[ 25%] [34m[1mAutomatic MOC for target path_mark_plugin[0m
+[ 25%] Built target path_mark_plugin_autogen
+[35m[1mConsolidate compiler generated dependencies of target path_mark_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o[0m
+In file included from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:8:0[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:119:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+  std::[01;31m[Kthread[m[K photo_thread;
+       [01;31m[K^~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In lambda function:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:227:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+  while([01;31m[Kis_running[m[K){
+        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:227:8:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Kautolabor_plugin1::PathMarkPlugin::is_running[m[K’
+In file included from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:8:0[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:118:20:[m[K [01;36m[Knote: [m[Kdeclared here
+  std::atomic<bool> [01;36m[Kis_running[m[K;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In member function ‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::photo_task_button_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:225:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kphoto_thread[m[K’ was not declared in this scope
+  [01;31m[Kphoto_thread[m[K([](){
+  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:225:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kthread[m[K’
+  [01;36m[Kphoto_thread[m[K([](){
+  [01;36m[K^~~~~~~~~~~~[m[K
+  [32m[Kthread[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In member function ‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::stop_task_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:237:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kphoto_thread[m[K’ was not declared in this scope
+  [01;31m[Kphoto_thread[m[K.join();
+  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:237:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kthread[m[K’
+  [01;36m[Kphoto_thread[m[K.join();
+  [01;36m[K^~~~~~~~~~~~[m[K
+  [32m[Kthread[m[K
+In file included from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/moc_path_mark_plugin.cpp:9:0[m[K,
+                 from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/../../../../../../../../home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:119:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+  std::[01;31m[Kthread[m[K photo_thread;
+       [01;31m[K^~~~~~[m[K
+CMakeFiles/path_mark_plugin.dir/build.make:75: recipe for target 'CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o' failed
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+CMakeFiles/path_mark_plugin.dir/build.make:89: recipe for target 'CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o' failed
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+CMakeFiles/Makefile2:2368: recipe for target 'CMakeFiles/path_mark_plugin.dir/all' failed
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

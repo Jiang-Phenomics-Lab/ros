@@ -1,0 +1,30 @@
+Log file created at: 2024/01/26 11:26:02
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240126 11:26:02.838009 11285 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240126 11:26:02.929484 11285 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 11:26:02.929595 11285 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 11:26:04.929711 11285 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 11:26:08.930215 11285 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240126 11:26:08.930349 11285 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 11:26:09.031863 11285 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 11:26:09.031913 11285 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 11:26:23.934118 11285 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240126 11:26:23.934639 11285 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240126 11:26:23.934702 11285 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+E20240126 11:26:24.035853 11285 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 11:26:24.035935 11285 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 11:26:28.934384 11285 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 11:26:28.934608 11285 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 11:26:30.934744 11285 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 11:26:34.935204 11285 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240126 11:26:35.087251 11285 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 11:26:36.039642 11285 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 11:26:36.039772 11285 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 11:26:54.341616 11285 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240126 11:26:54.341675 11285 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 11:26:59.394673 11285 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+I20240126 11:26:59.394812 11285 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240126 11:26:59.394888 11285 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240126 11:26:59.394956 11285 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.

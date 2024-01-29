@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/autolabor_simulation_stage
+
+Name: autolabor_simulation_stage
+Description: Description of autolabor_simulation_stage
+Version: 0.0.1
+Cflags: -I/home/autolabor/catkin_ws/devel/.private/autolabor_simulation_stage/include -I/home/autolabor/catkin_ws/src/simulation/autolabor_simulation_stage/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/al_rtk_ros_driver
+
+Name: al_rtk_ros_driver
+Description: Description of al_rtk_ros_driver
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

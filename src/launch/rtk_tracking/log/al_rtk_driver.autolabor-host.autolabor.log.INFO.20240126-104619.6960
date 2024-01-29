@@ -1,0 +1,14 @@
+Log file created at: 2024/01/26 10:46:19
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240126 10:46:19.187353  6960 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240126 10:46:19.512046  6960 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 10:46:19.512748  6960 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 10:46:21.512893  6960 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 10:46:25.513332  6960 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240126 10:46:25.513434  6960 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:46:25.622881  6960 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:46:25.622926  6960 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+I20240126 10:46:25.622958  6960 al_rtk_raw_driver.cpp:286] send first gpgga to ntrip service :$GPGGA,024625.00,4000.25197223,N,11622.41067849,E,4,09,2.2,58.4452,M,-9.2308,M,22,1540*48
+  1

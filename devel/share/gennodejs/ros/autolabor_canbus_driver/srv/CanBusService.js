@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_canbus_driver/share/gennodejs/ros/autolabor_canbus_driver/srv/CanBusService.js

@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/pico_zense_driver.dir/src/pico_zense_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/pico_zense_driver/lib/pico_zense_driver/pico_zense_driver[0m
+[100%] Built target pico_zense_driver

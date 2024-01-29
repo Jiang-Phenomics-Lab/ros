@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/tl740d/cmake/tl740dConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/tl740d/cmake/tl740dConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/tl740d/tl740d_driver
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/tl740d.pc

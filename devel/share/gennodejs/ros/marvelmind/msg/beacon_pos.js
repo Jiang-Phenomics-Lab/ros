@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/marvelmind/share/gennodejs/ros/marvelmind/msg/beacon_pos.js

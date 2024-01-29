@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libcartographer_rviz.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/cartographer_rviz.pc

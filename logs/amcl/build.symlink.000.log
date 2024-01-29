@@ -1,0 +1,14 @@
+Symlinking /home/autolabor/catkin_ws/devel/include/amcl/AMCLConfig.h
+Symlinking /home/autolabor/catkin_ws/devel/share/amcl/cmake/amclConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/amcl/cmake/amclConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/amcl/docs/AMCLConfig.dox
+Symlinking /home/autolabor/catkin_ws/devel/share/amcl/docs/AMCLConfig.wikidoc
+Symlinking /home/autolabor/catkin_ws/devel/share/amcl/docs/AMCLConfig-usage.dox
+Symlinking /home/autolabor/catkin_ws/devel/lib/libamcl_pf.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/libamcl_map.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/libamcl_sensors.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/amcl/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/amcl/cfg/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/amcl/cfg/AMCLConfig.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/amcl.pc
+Symlinking /home/autolabor/catkin_ws/devel/lib/amcl/amcl

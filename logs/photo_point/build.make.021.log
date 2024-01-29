@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target photo_point[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/photo_point.dir/src/photo_point.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/photo_point/lib/photo_point/photo_point[0m
+[100%] Built target photo_point

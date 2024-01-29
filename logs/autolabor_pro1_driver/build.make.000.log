@@ -1,0 +1,78 @@
+[  0%] Built target _autolabor_pro1_driver_generate_messages_check_deps_Encode
+[  7%] [34m[1mGenerating dynamic reconfigure files from cfg/AutolaborModel.cfg: /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/include/autolabor_pro1_driver/AutolaborModelConfig.h /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/lib/python2.7/dist-packages/autolabor_pro1_driver/cfg/AutolaborModelConfig.py[0m
+Generating reconfiguration files for AutolaborModel in autolabor_pro1_driver
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/include/autolabor_pro1_driver/AutolaborModelConfig.h
+[ 15%] [34m[1mGenerating dynamic reconfigure files from cfg/SimAutolaborDriver.cfg: /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/include/autolabor_pro1_driver/SimAutolaborDriverConfig.h /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/lib/python2.7/dist-packages/autolabor_pro1_driver/cfg/SimAutolaborDriverConfig.py[0m
+Generating reconfiguration files for SimAutolaborDriver in autolabor_pro1_driver
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/include/autolabor_pro1_driver/SimAutolaborDriverConfig.h
+[ 15%] Built target autolabor_pro1_driver_gencfg
+[ 15%] Built target roscpp_generate_messages_cpp
+[ 15%] Built target roscpp_generate_messages_eus
+[ 15%] Built target roscpp_generate_messages_lisp
+[ 15%] Built target roscpp_generate_messages_nodejs
+[ 15%] Built target roscpp_generate_messages_py
+[ 15%] Built target rosgraph_msgs_generate_messages_cpp
+[ 15%] Built target rosgraph_msgs_generate_messages_eus
+[ 15%] Built target rosgraph_msgs_generate_messages_lisp
+[ 15%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 15%] Built target rosgraph_msgs_generate_messages_py
+[ 15%] Built target std_msgs_generate_messages_cpp
+[ 15%] Built target std_msgs_generate_messages_eus
+[ 15%] Built target std_msgs_generate_messages_lisp
+[ 15%] Built target std_msgs_generate_messages_nodejs
+[ 15%] Built target std_msgs_generate_messages_py
+[ 15%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 15%] Built target dynamic_reconfigure_generate_messages_eus
+[ 15%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 15%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 15%] Built target dynamic_reconfigure_generate_messages_py
+[ 15%] Built target dynamic_reconfigure_gencfg
+[ 15%] Built target tf_generate_messages_cpp
+[ 15%] Built target tf_generate_messages_eus
+[ 15%] Built target tf_generate_messages_lisp
+[ 15%] Built target tf_generate_messages_nodejs
+[ 15%] Built target tf_generate_messages_py
+[ 15%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target geometry_msgs_generate_messages_eus
+[ 15%] Built target geometry_msgs_generate_messages_lisp
+[ 15%] Built target geometry_msgs_generate_messages_nodejs
+[ 15%] Built target geometry_msgs_generate_messages_py
+[ 15%] Built target sensor_msgs_generate_messages_cpp
+[ 15%] Built target sensor_msgs_generate_messages_eus
+[ 15%] Built target sensor_msgs_generate_messages_lisp
+[ 15%] Built target sensor_msgs_generate_messages_nodejs
+[ 15%] Built target sensor_msgs_generate_messages_py
+[ 15%] Built target actionlib_generate_messages_cpp
+[ 15%] Built target actionlib_generate_messages_eus
+[ 15%] Built target actionlib_generate_messages_lisp
+[ 15%] Built target actionlib_generate_messages_nodejs
+[ 15%] Built target actionlib_generate_messages_py
+[ 15%] Built target actionlib_msgs_generate_messages_cpp
+[ 15%] Built target actionlib_msgs_generate_messages_eus
+[ 15%] Built target actionlib_msgs_generate_messages_lisp
+[ 15%] Built target actionlib_msgs_generate_messages_nodejs
+[ 15%] Built target actionlib_msgs_generate_messages_py
+[ 15%] Built target tf2_msgs_generate_messages_cpp
+[ 15%] Built target tf2_msgs_generate_messages_eus
+[ 15%] Built target tf2_msgs_generate_messages_lisp
+[ 15%] Built target tf2_msgs_generate_messages_nodejs
+[ 15%] Built target tf2_msgs_generate_messages_py
+[ 23%] [34m[1mGenerating Python from MSG autolabor_pro1_driver/Encode[0m
+[ 30%] [34m[1mGenerating Python msg __init__.py for autolabor_pro1_driver[0m
+[ 30%] Built target autolabor_pro1_driver_generate_messages_py
+[ 38%] [34m[1mGenerating C++ code from autolabor_pro1_driver/Encode.msg[0m
+[ 38%] Built target autolabor_pro1_driver_generate_messages_cpp
+[ 46%] [34m[1mGenerating EusLisp manifest code for autolabor_pro1_driver[0m
+[ 53%] [34m[1mGenerating EusLisp code from autolabor_pro1_driver/Encode.msg[0m
+[ 61%] [34m[1mGenerating Lisp code from autolabor_pro1_driver/Encode.msg[0m
+[ 61%] Built target autolabor_pro1_driver_generate_messages_lisp
+[ 69%] [34m[1mGenerating Javascript code from autolabor_pro1_driver/Encode.msg[0m
+[ 69%] Built target autolabor_pro1_driver_generate_messages_nodejs
+[ 69%] Built target autolabor_pro1_driver_generate_messages_eus
+[ 69%] Built target autolabor_pro1_driver_generate_messages
+[ 76%] [32mBuilding CXX object CMakeFiles/autolabor_pro1_driver.dir/src/autolabor_driver.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/lib/autolabor_pro1_driver/autolabor_pro1_driver[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/sim_autolabor_pro1_driver.dir/src/sim_autolabor_driver.cpp.o[0m
+[ 92%] Built target autolabor_pro1_driver
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/autolabor_pro1_driver/lib/autolabor_pro1_driver/sim_autolabor_pro1_driver[0m
+[100%] Built target sim_autolabor_pro1_driver

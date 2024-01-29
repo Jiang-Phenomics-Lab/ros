@@ -1,0 +1,22 @@
+[  6%] Built target urg_node_gencfg
+[  6%] Built target _urg_node_generate_messages_check_deps_Status
+[  6%] Built target std_msgs_generate_messages_py
+[  6%] Built target std_msgs_generate_messages_cpp
+[  6%] Built target std_msgs_generate_messages_eus
+[  6%] Built target std_msgs_generate_messages_lisp
+[  6%] Built target std_msgs_generate_messages_nodejs
+[35m[1mConsolidate compiler generated dependencies of target urg_c_wrapper[0m
+[ 18%] Built target urg_c_wrapper
+[ 31%] Built target urg_node_generate_messages_py
+[ 37%] Built target urg_node_generate_messages_cpp
+[ 50%] Built target urg_node_generate_messages_eus
+[ 56%] Built target urg_node_generate_messages_lisp
+[ 62%] Built target urg_node_generate_messages_nodejs
+[ 62%] Built target urg_node_gencpp
+[35m[1mConsolidate compiler generated dependencies of target getID[0m
+[ 75%] Built target getID
+[ 75%] Built target urg_node_generate_messages
+[35m[1mConsolidate compiler generated dependencies of target urg_node_driver[0m
+[ 87%] Built target urg_node_driver
+[35m[1mConsolidate compiler generated dependencies of target urg_node[0m
+[100%] Built target urg_node

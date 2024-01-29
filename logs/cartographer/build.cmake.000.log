@@ -1,0 +1,58 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Build type: Release
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36m--[0m Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found GMock: /usr/local/lib/libgmock_main.a;/usr/local/lib/libgmock.a;/usr/local/lib/libgtest.a;-lpthread
+[36m--[0m Found Boost: /usr/include (found version "1.65.1") found components: iostreams regex
+[36m--[0m Found CXSparse: /usr/include/suitesparse (found suitable version "3.1.9", minimum required is "3.1.9")
+[36m--[0m Found AMD headers in: /usr/include/suitesparse
+[36m--[0m Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[36m--[0m Found CAMD headers in: /usr/include/suitesparse
+[36m--[0m Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[36m--[0m Found CCOLAMD headers in: /usr/include/suitesparse
+[36m--[0m Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[36m--[0m Found CHOLMOD headers in: /usr/include/suitesparse
+[36m--[0m Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[36m--[0m Found COLAMD headers in: /usr/include/suitesparse
+[36m--[0m Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[36m--[0m Found SPQR headers in: /usr/include/suitesparse
+[36m--[0m Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[36m--[0m Found Config headers in: /usr/include/suitesparse
+[36m--[0m Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[36m--[0m Did not find Intel TBB library, assuming SuiteSparseQR was not compiled with TBB.
+[36m--[0m Looking for shm_open in rt
+[36m--[0m Looking for shm_open in rt - found
+[36m--[0m Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[36m--[0m Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY)
+[36m--[0m Found SuiteSparse: /usr/include/suitesparse (found suitable version "5.1.2", minimum required is "5.1.2") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config
+[36m--[0m Found required Ceres dependency: Eigen version 3.3.4 in /usr/lib/cmake/eigen3
+[36m--[0m Found required Ceres dependency: glog
+[36m--[0m Found required Ceres dependency: gflags
+[36m--[0m Found Ceres version: 2.1.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[36m--[0m Found Lua: /usr/lib/x86_64-linux-gnu/liblua5.2.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "5.2.4")
+[36m--[0m Found Protobuf: /usr/local/lib/libprotobuf.a;-lpthread (found suitable version "3.5.0", minimum required is "3.0.0")
+[36m--[0m Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[36m--[0m Checking for one of the modules 'cairo>=1.12.16'
+[36m--[0m Found Sphinx: /usr/bin/sphinx-build
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /opt/autolabor/ros/catkin_ws/build/cartographer

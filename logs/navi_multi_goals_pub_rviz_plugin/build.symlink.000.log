@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/navi_multi_goals_pub_rviz_plugin/cmake/navi_multi_goals_pub_rviz_pluginConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/navi_multi_goals_pub_rviz_plugin/cmake/navi_multi_goals_pub_rviz_pluginConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libnavi_multi_goals_pub_rviz_plugin.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/navi_multi_goals_pub_rviz_plugin.pc

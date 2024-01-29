@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/marvelmind/share/roseus/ros/marvelmind/manifest.l

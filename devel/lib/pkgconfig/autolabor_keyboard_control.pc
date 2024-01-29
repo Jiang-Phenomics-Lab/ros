@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_keyboard_control/lib/pkgconfig/autolabor_keyboard_control.pc

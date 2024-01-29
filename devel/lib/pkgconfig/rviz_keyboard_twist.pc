@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/rviz_keyboard_twist/lib/pkgconfig/rviz_keyboard_twist.pc

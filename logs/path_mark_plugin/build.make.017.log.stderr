@@ -1,0 +1,73 @@
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In member function ‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::start_task_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:126:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+         tf2_ros::TransformListener [01;31m[KtfListener_[m[K;
+                                    [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/tf/transform_listener.h:46:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, const ros::NodeHandle&, bool)
+   [01;36m[KTransformListener[m[K(tf2::BufferCore& buffer, const ros::NodeHandle& nh, bool spin_thread = true);
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)
+   [01;36m[KTransformListener[m[K(tf2::BufferCore& buffer, bool spin_thread = true);
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kphotopoint_sub[m[K’ was not declared in this scope
+  [01;31m[Kphotopoint_sub[m[K = nh_.subcribe<visualization_msgs::MarkArray>("marker_array",10,callback);
+  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpoint_sub_[m[K’
+  [01;36m[Kphotopoint_sub[m[K = nh_.subcribe<visualization_msgs::MarkArray>("marker_array",10,callback);
+  [01;36m[K^~~~~~~~~~~~~~[m[K
+  [32m[Kpoint_sub_[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[Ksubcribe[m[K’; did you mean ‘[01m[Ksubscribe[m[K’?
+  photopoint_sub = nh_.[01;31m[Ksubcribe[m[K<visualization_msgs::MarkArray>("marker_array",10,callback);
+                       [01;31m[K^~~~~~~~[m[K
+                       [32m[Ksubscribe[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:52:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs[m[K’
+  photopoint_sub = nh_.subcribe<visualization_msgs::[01;31m[KMarkArray[m[K>("marker_array",10,callback);
+                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:52:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMarkerPtr[m[K’
+  photopoint_sub = nh_.subcribe<visualization_msgs::[01;36m[KMarkArray[m[K>("marker_array",10,callback);
+                                                    [01;36m[K^~~~~~~~~[m[K
+                                                    [32m[KMarkerPtr[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback[m[K’ was not declared in this scope
+  photopoint_sub = nh_.subcribe<visualization_msgs::MarkArray>("marker_array",10,[01;31m[Kcallback[m[K);
+                                                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:129:81:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcalloc[m[K’
+  photopoint_sub = nh_.subcribe<visualization_msgs::MarkArray>("marker_array",10,[01;36m[Kcallback[m[K);
+                                                                                 [01;36m[K^~~~~~~~[m[K
+                                                                                 [32m[Kcalloc[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:132:45:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ in namespace ‘[01m[Kvisualization_msgs[m[K’ does not name a type
+     void callback(const visualization_msgs::[01;31m[KMarkerArray[m[K::ConstPtr& msg){
+                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:132:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+     void callback(const visualization_msgs::MarkerArray::ConstPtr[01;31m[K&[m[K msg){
+                                                                  [01;31m[K^[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:132:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:132:68:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+     void callback(const visualization_msgs::MarkerArray::ConstPtr& [01;31m[Kmsg[m[K){
+                                                                    [01;31m[K^~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In member function ‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::photo_point_callback(int, int)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:259:28:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs[m[K’
+        visualization_msgs::[01;31m[KMarkerArray[m[K markers;
+                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:259:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMarkerPtr[m[K’
+        visualization_msgs::[01;36m[KMarkerArray[m[K markers;
+                            [01;36m[K^~~~~~~~~~~[m[K
+                            [32m[KMarkerPtr[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:260:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarkers[m[K’ was not declared in this scope
+        for (const auto& marker : [01;31m[Kmarkers[m[K.markers){
+                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:260:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmarker[m[K’
+        for (const auto& marker : [01;36m[Kmarkers[m[K.markers){
+                                  [01;36m[K^~~~~~~[m[K
+                                  [32m[Kmarker[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:266:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+  [01;31m[Kelse[m[K
+  [01;31m[K^~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:266:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+make: *** [all] Error 2

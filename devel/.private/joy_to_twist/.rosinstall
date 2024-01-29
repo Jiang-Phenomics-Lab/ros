@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autolabor/catkin_ws/devel/.private/joy_to_twist/setup.sh

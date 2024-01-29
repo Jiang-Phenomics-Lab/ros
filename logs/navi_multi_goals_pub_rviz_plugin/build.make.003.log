@@ -1,0 +1,6 @@
+[ 25%] [34m[1mAutomatic MOC for target navi_multi_goals_pub_rviz_plugin[0m
+[ 25%] Built target navi_multi_goals_pub_rviz_plugin_autogen
+[35m[1mConsolidate compiler generated dependencies of target navi_multi_goals_pub_rviz_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navi_multi_goals_pub_rviz_plugin.dir/src/multi_navi_goal_panel.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/navi_multi_goals_pub_rviz_plugin/lib/libnavi_multi_goals_pub_rviz_plugin.so[0m
+[100%] Built target navi_multi_goals_pub_rviz_plugin

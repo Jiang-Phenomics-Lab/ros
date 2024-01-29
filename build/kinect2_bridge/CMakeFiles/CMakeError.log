@@ -1,0 +1,65 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3f704/fast && /usr/bin/make  -f CMakeFiles/cmTC_3f704.dir/build.make CMakeFiles/cmTC_3f704.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3f704.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -Wlogical-op -std=c++11  -o CMakeFiles/cmTC_3f704.dir/src.cxx.o -c /opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3f704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f704.dir/link.txt --verbose=1
+/usr/bin/c++  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -Wlogical-op -std=c++11  CMakeFiles/cmTC_3f704.dir/src.cxx.o -o cmTC_3f704 
+CMakeFiles/cmTC_3f704.dir/src.cxx.o：在函数‘main’中：
+src.cxx:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.cxx:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.cxx:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.cxx:(.text+0x67)：对‘pthread_join’未定义的引用
+src.cxx:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3f704.dir/build.make:98: recipe for target 'cmTC_3f704' failed
+make[1]: *** [cmTC_3f704] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_3f704/fast' failed
+make: *** [cmTC_3f704/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9f0d9/fast && /usr/bin/make  -f CMakeFiles/cmTC_9f0d9.dir/build.make CMakeFiles/cmTC_9f0d9.dir/build
+make[1]: 进入目录“/opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9f0d9.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -Wlogical-op -std=c++11 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9f0d9.dir/CheckFunctionExists.cxx.o -c /opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_9f0d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f0d9.dir/link.txt --verbose=1
+/usr/bin/c++  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -Wlogical-op -std=c++11 -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_9f0d9.dir/CheckFunctionExists.cxx.o -o cmTC_9f0d9  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9f0d9.dir/build.make:98: recipe for target 'cmTC_9f0d9' failed
+make[1]: *** [cmTC_9f0d9] Error 1
+make[1]: 离开目录“/opt/autolabor/ros/catkin_ws/build/kinect2_bridge/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_9f0d9/fast' failed
+make: *** [cmTC_9f0d9/fast] Error 2
+
+
+

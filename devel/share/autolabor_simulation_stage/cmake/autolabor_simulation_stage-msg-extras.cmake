@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_simulation_stage/share/autolabor_simulation_stage/cmake/autolabor_simulation_stage-msg-extras.cmake

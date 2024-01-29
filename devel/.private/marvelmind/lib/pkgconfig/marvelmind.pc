@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/marvelmind
+
+Name: marvelmind
+Description: Description of marvelmind
+Version: 0.0.1
+Cflags: -I/home/autolabor/catkin_ws/devel/.private/marvelmind/include -I/home/autolabor/catkin_ws/src/driver/location/marvelmind/include
+Libs: -L${prefix}/lib 
+Requires: 

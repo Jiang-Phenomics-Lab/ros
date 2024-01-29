@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/loop_path_planner.dir/src/loop_path_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/loop_path_planner/lib/libloop_path_planner.so[0m
+[100%] Built target loop_path_planner

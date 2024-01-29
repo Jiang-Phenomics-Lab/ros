@@ -1,0 +1,3 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/ros_yolo/cmake/ros_yoloConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/ros_yolo/cmake/ros_yoloConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/ros_yolo.pc

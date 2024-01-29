@@ -1,0 +1,5 @@
+take_photo
+/home/autolabor/catkin_ws/devel/.private/take_photo/cmake.lock /home/autolabor/catkin_ws/devel/./cmake.lock
+/home/autolabor/catkin_ws/devel/.private/take_photo/share/take_photo/cmake/take_photoConfig-version.cmake /home/autolabor/catkin_ws/devel/share/take_photo/cmake/take_photoConfig-version.cmake
+/home/autolabor/catkin_ws/devel/.private/take_photo/share/take_photo/cmake/take_photoConfig.cmake /home/autolabor/catkin_ws/devel/share/take_photo/cmake/take_photoConfig.cmake
+/home/autolabor/catkin_ws/devel/.private/take_photo/lib/pkgconfig/take_photo.pc /home/autolabor/catkin_ws/devel/lib/pkgconfig/take_photo.pc

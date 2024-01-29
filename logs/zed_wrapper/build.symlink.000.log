@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/zed_wrapper/zed_wrapper_node
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/zed_wrapper.pc

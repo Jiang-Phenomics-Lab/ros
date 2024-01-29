@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/cartographer_ros_msgs/share/roseus/ros/cartographer_ros_msgs/srv/ReadMetrics.l

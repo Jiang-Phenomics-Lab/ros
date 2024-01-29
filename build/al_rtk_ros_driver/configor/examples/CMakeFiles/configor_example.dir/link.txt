@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/configor_example.dir/main.cpp.o CMakeFiles/configor_example.dir/user_info.cpp.o -o configor_example 

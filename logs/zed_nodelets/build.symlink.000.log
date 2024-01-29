@@ -1,0 +1,11 @@
+Symlinking /home/autolabor/catkin_ws/devel/include/zed_nodelets/ZedConfig.h
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_nodelets/cmake/zed_nodeletsConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_nodelets/cmake/zed_nodeletsConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_nodelets/docs/ZedConfig.wikidoc
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_nodelets/docs/ZedConfig-usage.dox
+Symlinking /home/autolabor/catkin_ws/devel/share/zed_nodelets/docs/ZedConfig.dox
+Symlinking /home/autolabor/catkin_ws/devel/lib/libZEDNodelets.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/zed_nodelets/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/zed_nodelets/cfg/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/zed_nodelets/cfg/ZedConfig.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/zed_nodelets.pc

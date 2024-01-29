@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/record_path_planner/lib/pkgconfig/record_path_planner.pc

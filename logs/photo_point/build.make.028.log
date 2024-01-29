@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/photo_point.dir/src/photo_point.cpp.o[0m
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:107:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_task_pub_[m[K’ was not declared in this scope
+  [01;31m[Kstart_task_pub_[m[K = nh_.advertise<geometry_msgs::PoseStamped>("move_base_simple/goal", 1);
+  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:107:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:16:0[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/include/photo_point/photo_point.h:47:17:[m[K [01;36m[Knote: [m[K  ‘[01m[Kphoto_point::start_task_pub_[m[K’
+  ros::Publisher [01;36m[Kstart_task_pub_[m[K, cancel_task_pub_;
+                 [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_task_pub_[m[K’ was not declared in this scope
+     [01;31m[Kcancel_task_pub_[m[K = nh_.advertise<actionlib_msgs::GoalID>("move_base/cancel", 1);
+     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:108:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:16:0[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/include/photo_point/photo_point.h:47:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kphoto_point::cancel_task_pub_[m[K’
+  ros::Publisher start_task_pub_, [01;36m[Kcancel_task_pub_[m[K;
+                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+CMakeFiles/photo_point.dir/build.make:75: recipe for target 'CMakeFiles/photo_point.dir/src/photo_point.cpp.o' failed
+make[2]: *** [CMakeFiles/photo_point.dir/src/photo_point.cpp.o] Error 1
+CMakeFiles/Makefile2:2292: recipe for target 'CMakeFiles/photo_point.dir/all' failed
+make[1]: *** [CMakeFiles/photo_point.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

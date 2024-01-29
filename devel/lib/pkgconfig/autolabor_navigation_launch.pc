@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_navigation_launch/lib/pkgconfig/autolabor_navigation_launch.pc

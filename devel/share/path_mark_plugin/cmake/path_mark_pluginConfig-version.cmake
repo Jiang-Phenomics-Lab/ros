@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/path_mark_plugin/share/path_mark_plugin/cmake/path_mark_pluginConfig-version.cmake

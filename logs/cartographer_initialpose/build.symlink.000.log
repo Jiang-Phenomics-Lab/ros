@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/cartographer_initialpose/cmake/cartographer_initialposeConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/cartographer_initialpose/cmake/cartographer_initialposeConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/cartographer_initialpose.pc
+Symlinking /home/autolabor/catkin_ws/devel/lib/cartographer_initialpose/cartographer_initialpose

@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/path_mark_plugin/lib/pkgconfig/path_mark_plugin.pc

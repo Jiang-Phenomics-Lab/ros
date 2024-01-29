@@ -1,0 +1,28 @@
+[  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[  9%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[ 13%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/openslam_gmapping/lib/libutils.so[0m
+[ 13%] Built target utils
+[ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[ 22%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_base.so[0m
+[ 27%] Built target sensor_base
+[ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[ 36%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so[0m
+[ 40%] Built target sensor_range
+[ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[ 50%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_odometry.so[0m
+[ 54%] Built target sensor_odometry
+[ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so[0m
+[ 77%] Built target scanmatcher
+[ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/openslam_gmapping/lib/libgridfastslam.so[0m
+[100%] Built target gridfastslam

@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/rviz_navigation_tools/lib/pkgconfig/rviz_navigation_tools.pc

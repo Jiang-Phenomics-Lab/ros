@@ -1,0 +1,302 @@
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:[m[K In member function ‘[01m[Kvoid cartographer::mapping::scan_matching::CeresScanMatcher3D::Match(const Vector3d&, const Rigid3d&, const std::vector<cartographer::mapping::scan_matching::PointCloudAndHybridGridsPointers>&, cartographer::transform::Rigid3d*, ceres::Solver::Summary*) const[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:101:36:[m[K [01;35m[Kwarning: [m[K‘[01m[KLocalParameterization[m[K’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+           ? std::unique_ptr<ceres::[01;35m[KLocalParameterization[m[K>(
+                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/3d/hybrid_grid.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:121:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KLocalParameterization[m[K {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:102:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class Functor, int kGlobalSize, int kLocalSize> class ceres::AutoDiffLocalParameterization[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+                 absl::make_unique<ceres::[01;35m[KAutoDiffLocalParameterization[m[K<
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:39:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/3d/hybrid_grid.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+     [01;36m[KAutoDiffLocalParameterization[m[K : public LocalParameterization {
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:104:36:[m[K [01;35m[Kwarning: [m[K‘[01m[KLocalParameterization[m[K’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+           : std::unique_ptr<ceres::[01;35m[KLocalParameterization[m[K>(
+                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/3d/hybrid_grid.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:121:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KLocalParameterization[m[K {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:105:42:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                 absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>()),
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/3d/hybrid_grid.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:[m[K In member function ‘[01m[Kvirtual cartographer::mapping::PoseExtrapolatorInterface::ExtrapolationResult cartographer::mapping::ImuBasedPoseExtrapolator::ExtrapolatePosesWithGravity(const std::vector<std::chrono::time_point<cartographer::common::UniversalTimeScaleClock> >&)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:140:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+       absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(), &problem);
+                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/internal/ceres_solver_options.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:165:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class Functor, int kGlobalSize, int kLocalSize> class ceres::AutoDiffLocalParameterization[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+                          absl::make_unique<ceres::[01;35m[KAutoDiffLocalParameterization[m[K<
+                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:39:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/internal/ceres_solver_options.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:17[m[K:
+[01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+     [01;36m[KAutoDiffLocalParameterization[m[K : public LocalParameterization {
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:171:51:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                          absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(),
+                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/internal/ceres_solver_options.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:203:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                      absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(),
+                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/internal/ceres_solver_options.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:226:40:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                             new ceres::[01;35m[KQuaternionParameterization[m[K());
+                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/internal/ceres_solver_options.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:226:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’ is deprecated: LocalParameterizations are deprecated. Use the version with Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                             new ceres::QuaternionParameterization()[01;35m[K)[m[K;
+                                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:66:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/internal/ceres_solver_options.h:22[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/imu_based_pose_extrapolator.cc:17[m[K:
+[01m[K/usr/local/include/ceres/problem.h:302:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KAddParameterBlock[m[K(double* values,
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:32:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KLocalParameterization[m[K’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+     std::unique_ptr<ceres::[01;35m[KLocalParameterization[m[K> translation_parametrization,
+                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/transform/rigid_transform.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:121:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KLocalParameterization[m[K {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:33:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KLocalParameterization[m[K’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+     std::unique_ptr<ceres::[01;35m[KLocalParameterization[m[K> rotation_parametrization,
+                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/transform/rigid_transform.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:121:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KLocalParameterization[m[K {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:[m[K In constructor ‘[01m[Kcartographer::mapping::optimization::CeresPose::CeresPose(const Rigid3d&, std::unique_ptr<ceres::LocalParameterization>, std::unique_ptr<ceres::LocalParameterization>, ceres::Problem*)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:37:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’ is deprecated: LocalParameterizations are deprecated. Use the version with Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                              translation_parametrization.release()[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:66:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/transform/rigid_transform.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:17[m[K:
+[01m[K/usr/local/include/ceres/problem.h:302:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KAddParameterBlock[m[K(double* values,
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:39:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’ is deprecated: LocalParameterizations are deprecated. Use the version with Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                              rotation_parametrization.release()[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:66:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/transform/rigid_transform.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/ceres_pose.cc:17[m[K:
+[01m[K/usr/local/include/ceres/problem.h:302:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KAddParameterBlock[m[K(double* values,
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.cc:[m[K In function ‘[01m[Kvoid cartographer::mapping::optimization::{anonymous}::AddLandmarkCostFunctions(const std::map<std::__cxx11::basic_string<char>, cartographer::mapping::PoseGraphInterface::LandmarkNode>&, const cartographer::mapping::MapById<cartographer::mapping::NodeId, cartographer::mapping::optimization::NodeSpec2D>&, cartographer::mapping::MapById<cartographer::mapping::NodeId, std::array<double, 3> >*, std::map<std::__cxx11::basic_string<char>, cartographer::mapping::optimization::CeresPose>*, ceres::Problem*, double)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.cc:148:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                       absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(),
+                                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:[m[K In function ‘[01m[Kvoid cartographer::mapping::optimization::{anonymous}::AddLandmarkCostFunctions(const std::map<std::__cxx11::basic_string<char>, cartographer::mapping::PoseGraphInterface::LandmarkNode>&, const cartographer::mapping::MapById<cartographer::mapping::NodeId, cartographer::mapping::optimization::NodeSpec3D>&, cartographer::mapping::MapById<cartographer::mapping::NodeId, cartographer::mapping::optimization::CeresPose>*, std::map<std::__cxx11::basic_string<char>, cartographer::mapping::optimization::CeresPose>*, ceres::Problem*, double)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:164:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                       absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(),
+                                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:[m[K In member function ‘[01m[Kvirtual void cartographer::mapping::optimization::OptimizationProblem3D::Solve(const std::vector<cartographer::mapping::PoseGraphInterface::Constraint>&, const std::map<int, cartographer::mapping::PoseGraphInterface::TrajectoryState>&, const std::map<std::__cxx11::basic_string<char>, cartographer::mapping::PoseGraphInterface::LandmarkNode>&)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:278:42:[m[K [01;35m[Kwarning: [m[K‘[01m[KLocalParameterization[m[K’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+       [this]() -> std::unique_ptr<ceres::[01;35m[KLocalParameterization[m[K> {
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:121:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KLocalParameterization[m[K {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:[m[K In lambda function:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:280:43:[m[K [01;35m[Kwarning: [m[K‘[01m[KSubsetParameterization[m[K’ is deprecated: Use SubsetManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                ? absl::make_unique<ceres::[01;35m[KSubsetParameterization[m[K>(
+                                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:184:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KSubsetParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:[m[K In member function ‘[01m[Kvirtual void cartographer::mapping::optimization::OptimizationProblem3D::Solve(const std::vector<cartographer::mapping::PoseGraphInterface::Constraint>&, const std::map<int, cartographer::mapping::PoseGraphInterface::TrajectoryState>&, const std::map<std::__cxx11::basic_string<char>, cartographer::mapping::PoseGraphInterface::LandmarkNode>&)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:302:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class Functor, int kGlobalSize, int kLocalSize> class ceres::AutoDiffLocalParameterization[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+                     absl::make_unique<ceres::[01;35m[KAutoDiffLocalParameterization[m[K<
+                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:39:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+     [01;36m[KAutoDiffLocalParameterization[m[K : public LocalParameterization {
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:312:46:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                     absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(),
+                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:328:44:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                   absl::make_unique<ceres::[01;35m[KQuaternionParameterization[m[K>(),
+                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:366:44:[m[K [01;35m[Kwarning: [m[K‘[01m[KQuaternionParameterization[m[K’ is deprecated: Use QuaternionManifold instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                                 new ceres::[01;35m[KQuaternionParameterization[m[K());
+                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:39:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:39[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/local_parameterization.h:211:18:[m[K [01;36m[Knote: [m[Kdeclared here
+     CERES_EXPORT [01;36m[KQuaternionParameterization[m[K : public LocalParameterization {
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:366:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’ is deprecated: LocalParameterizations are deprecated. Use the version with Manifolds instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+                                 new ceres::QuaternionParameterization()[01;35m[K)[m[K;
+                                                                        [01;35m[K^[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:66:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/problem.h:302:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KAddParameterBlock[m[K(double* values,
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:548:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class Functor, int kGlobalSize, int kLocalSize> class ceres::AutoDiffLocalParameterization[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+                 absl::make_unique<ceres::[01;35m[KAutoDiffLocalParameterization[m[K<
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:39:0[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/common/math.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/submaps.h:24[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.h:31[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/mapping/cartographer/cartographer/mapping/internal/optimization/optimization_problem_3d.cc:17[m[K:
+[01m[K/usr/local/include/ceres/autodiff_local_parameterization.h:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+     [01;36m[KAutoDiffLocalParameterization[m[K : public LocalParameterization {
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

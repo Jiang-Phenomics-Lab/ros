@@ -1,0 +1,16 @@
+[31mCMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "rm_msgs" with any
+  of the following names:
+
+    rm_msgsConfig.cmake
+    rm_msgs-config.cmake
+
+  Add the installation prefix of "rm_msgs" to CMAKE_PREFIX_PATH or set
+  "rm_msgs_DIR" to a directory containing one of the above files.  If
+  "rm_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:10 (find_package)
+
+[0m
+make: *** [cmake_check_build_system] Error 1

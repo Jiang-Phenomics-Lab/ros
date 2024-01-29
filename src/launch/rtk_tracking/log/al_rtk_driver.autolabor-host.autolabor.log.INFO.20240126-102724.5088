@@ -1,0 +1,214 @@
+Log file created at: 2024/01/26 10:27:24
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240126 10:27:24.873605  5088 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240126 10:27:25.150406  5088 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 10:27:25.150909  5088 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 10:27:27.151023  5088 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 10:27:31.151487  5088 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240126 10:27:31.151579  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:27:31.242698  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:27:31.242738  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:27:46.246719  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:27:46.247264  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:27:51.303865  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:27:51.377802  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:27:51.377846  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:28:06.378998  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:28:06.379154  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:28:11.475857  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:28:11.618371  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:28:11.618417  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:28:26.623153  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:28:26.623277  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:28:31.720799  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:28:31.833909  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:28:31.833961  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:28:46.835475  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:28:46.835584  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:28:52.911855  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:28:52.999014  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:28:52.999073  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:29:08.002804  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:29:08.002990  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:29:13.065227  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:29:13.152881  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:29:13.152954  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:29:28.155503  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:29:28.155656  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:29:34.752048  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:29:34.828434  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:29:34.828500  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:29:49.830826  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:29:49.830976  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:29:56.697851  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:29:56.777454  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:29:56.777509  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:30:11.778636  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:30:11.778760  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:30:16.829490  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:30:16.912259  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:30:16.912314  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:30:31.914441  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:30:31.914590  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:30:39.498509  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:30:39.573980  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:30:39.574028  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:30:54.572238  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:30:54.572347  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:30:59.637447  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:30:59.721414  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:30:59.721472  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:31:14.719776  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:31:14.719974  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:31:19.755440  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:31:19.838599  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:31:19.838660  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:31:34.840158  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:31:34.840281  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:31:40.026113  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:31:40.134033  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:31:40.134081  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:31:55.135347  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:31:55.135496  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:32:00.196317  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:32:00.278252  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:32:00.278337  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:32:15.276381  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:32:15.276504  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:32:20.337065  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:32:20.420207  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:32:20.420264  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:32:35.421267  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:32:35.421393  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:32:40.656121  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:32:40.734970  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:32:40.735028  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:32:55.742136  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:32:55.742317  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:33:00.791261  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:33:00.867960  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:33:00.868008  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:33:15.870399  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:33:15.870515  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:33:20.924010  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:33:21.052002  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:33:21.052062  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:33:36.054653  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:33:36.054801  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:33:41.122174  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:33:41.202049  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:33:41.202109  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:33:56.202648  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:33:56.202826  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:34:01.264286  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:34:01.342193  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:34:01.342242  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:34:16.341473  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:34:16.341578  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:34:21.390038  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:34:21.486935  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:34:21.486989  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:34:36.489286  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:34:36.489403  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:34:41.685307  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:34:41.760690  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:34:41.760742  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:34:56.761407  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:34:56.761562  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:35:01.826730  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:35:01.906793  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:35:01.906822  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:35:16.907649  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:35:16.907796  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:35:21.964618  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:35:22.050210  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:35:22.050266  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:35:37.051954  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:35:37.052111  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:35:42.106794  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:35:42.182431  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:35:42.182494  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:35:57.182384  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:35:57.182495  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:36:02.282789  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:36:02.380005  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:36:02.380049  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:36:17.383316  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:36:17.383440  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:36:24.269073  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:36:24.361776  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:36:24.361845  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:36:39.360646  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:36:39.360771  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:36:44.397262  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:36:44.494360  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:36:44.494403  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:36:59.500797  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:36:59.500931  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:37:04.561987  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:37:04.664286  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:37:04.664341  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:37:19.662987  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:37:19.663137  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:37:24.740506  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:37:24.865015  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:37:24.865077  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:37:39.865382  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:37:39.865509  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:37:44.940043  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:37:45.020836  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:37:45.020893  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:38:00.020411  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:38:00.020486  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:38:05.086824  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:38:05.157894  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:38:05.157932  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:38:20.157961  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:38:20.158109  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:38:25.214526  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:38:25.348723  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:38:25.348786  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:38:40.348094  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:38:40.348215  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:38:45.410699  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:38:45.484333  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:38:45.484387  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:39:00.486970  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:39:00.487134  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:39:05.556061  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:39:05.624872  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:39:05.624930  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:39:20.623304  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:39:20.623447  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:39:25.795866  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:39:25.894284  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:39:25.894381  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:39:40.893455  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:39:40.893646  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:39:45.937301  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:39:46.009153  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:39:46.009200  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:40:01.009485  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:40:01.009617  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:40:06.056434  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:40:06.127573  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:40:06.127624  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:40:21.126631  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:40:21.126785  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:40:26.189392  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:40:26.270833  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:40:26.270865  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:40:41.275295  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:40:41.275388  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:40:46.329598  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:40:46.407588  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:40:46.407651  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240126 10:41:01.407735  5088 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240126 10:41:01.407866  5088 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240126 10:41:06.501330  5088 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240126 10:41:06.612654  5088 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240126 10:41:06.612704  5088 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+I20240126 10:41:06.612746  5088 al_rtk_raw_driver.cpp:286] send first gpgga to ntrip service :$GPGGA,024106.00,4000.27067890,N,11622.37781815,E,1,11,3.2,-51.2255,M,-9.2319,M,,*69
+  1

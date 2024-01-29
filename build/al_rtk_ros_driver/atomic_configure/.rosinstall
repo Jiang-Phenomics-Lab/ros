@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autolabor/catkin_ws/devel/.private/al_rtk_ros_driver/setup.sh

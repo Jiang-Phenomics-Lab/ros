@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/autolabor_simulation_lidar/cmake/autolabor_simulation_lidarConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/autolabor_simulation_lidar/cmake/autolabor_simulation_lidarConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/autolabor_simulation_lidar/simulation_lidar_node
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/autolabor_simulation_lidar.pc

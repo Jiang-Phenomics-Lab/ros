@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/multi_car_goal/cmake/multi_car_goalConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/multi_car_goal/cmake/multi_car_goalConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/multi_car_goal/multi_car_goal_node
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/multi_car_goal.pc

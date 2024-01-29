@@ -1,0 +1,11 @@
+prefix=/home/autolabor/catkin_ws/install
+exec_prefix=/home/autolabor/catkin_ws/install/bin
+libdir=/home/autolabor/catkin_ws/install/lib
+includedir=/home/autolabor/catkin_ws/install/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.6.0
+Libs: -L${libdir} -lglog
+Libs.private: -lpthread -lgflags
+Cflags: -I${includedir}

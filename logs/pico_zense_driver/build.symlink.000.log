@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/pico_zense_driver/cmake/pico_zense_driverConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/pico_zense_driver/cmake/pico_zense_driverConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/pico_zense_driver/pico_zense_driver
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/pico_zense_driver.pc

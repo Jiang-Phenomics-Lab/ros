@@ -1,0 +1,6 @@
+driver/depth_camera/iai_kinect2-master/kinect2_viewer
+/home/autolabor/catkin_ws/devel/.private/kinect2_viewer/cmake.lock /home/autolabor/catkin_ws/devel/./cmake.lock
+/home/autolabor/catkin_ws/devel/.private/kinect2_viewer/share/kinect2_viewer/cmake/kinect2_viewerConfig-version.cmake /home/autolabor/catkin_ws/devel/share/kinect2_viewer/cmake/kinect2_viewerConfig-version.cmake
+/home/autolabor/catkin_ws/devel/.private/kinect2_viewer/share/kinect2_viewer/cmake/kinect2_viewerConfig.cmake /home/autolabor/catkin_ws/devel/share/kinect2_viewer/cmake/kinect2_viewerConfig.cmake
+/home/autolabor/catkin_ws/devel/.private/kinect2_viewer/lib/pkgconfig/kinect2_viewer.pc /home/autolabor/catkin_ws/devel/lib/pkgconfig/kinect2_viewer.pc
+/home/autolabor/catkin_ws/devel/.private/kinect2_viewer/lib/kinect2_viewer/kinect2_viewer /home/autolabor/catkin_ws/devel/lib/kinect2_viewer/kinect2_viewer

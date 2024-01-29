@@ -1,0 +1,5 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_bridge/cmake/kinect2_bridgeConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/kinect2_bridge/cmake/kinect2_bridgeConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libkinect2_bridge_nodelet.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/kinect2_bridge.pc
+Symlinking /home/autolabor/catkin_ws/devel/lib/kinect2_bridge/kinect2_bridge

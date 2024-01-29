@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/ros_yolo/share/ros_yolo/cmake/ros_yoloConfig.cmake

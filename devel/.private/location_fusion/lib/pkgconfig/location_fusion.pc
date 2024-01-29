@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/location_fusion
+
+Name: location_fusion
+Description: Description of location_fusion
+Version: 0.0.1
+Cflags: -I/home/autolabor/catkin_ws/src/navigation/location_fusion/include
+Libs: -L${prefix}/lib 
+Requires: 

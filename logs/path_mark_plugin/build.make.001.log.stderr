@@ -1,0 +1,232 @@
+In file included from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/moc_path_mark_plugin.cpp:9:0[m[K,
+                 from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/../../../../../../../../home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQTableWidget[m[K’ does not name a type; did you mean ‘[01m[KQWidget[m[K’?
+         [01;31m[KQTableWidget[m[K *poseArray_table_;
+         [01;31m[K^~~~~~~~~~~~[m[K
+         [32m[KQWidget[m[K
+[01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/../../../../../../../../home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQCheckBox[m[K’ does not name a type; did you mean ‘[01m[KqChecksum[m[K’?
+         [01;31m[KQCheckBox[m[K *cycle_checkbox_;
+         [01;31m[K^~~~~~~~~[m[K
+         [32m[KqChecksum[m[K
+In file included from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:7:0[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQTableWidget[m[K’ does not name a type; did you mean ‘[01m[KQWidget[m[K’?
+         [01;31m[KQTableWidget[m[K *poseArray_table_;
+         [01;31m[K^~~~~~~~~~~~[m[K
+         [32m[KQWidget[m[K
+[01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/../../../../../../../../home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQTableWidgetItem[m[K’ does not name a type; did you mean ‘[01m[KQWidgetItem[m[K’?
+         [01;31m[KQTableWidgetItem[m[K*item_;
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+         [32m[KQWidgetItem[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQCheckBox[m[K’ does not name a type; did you mean ‘[01m[KqChecksum[m[K’?
+         [01;31m[KQCheckBox[m[K *cycle_checkbox_;
+         [01;31m[K^~~~~~~~~[m[K
+         [32m[KqChecksum[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQTableWidgetItem[m[K’ does not name a type; did you mean ‘[01m[KQWidgetItem[m[K’?
+         [01;31m[KQTableWidgetItem[m[K*item_;
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+         [32m[KQWidgetItem[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ does not name a type; did you mean ‘[01m[KPathRvizPlugin[m[K’?
+     [01;31m[KPathMarkPlugin[m[K::PathMarkPlugin(QWidget *parent) : Panel(parent) {
+     [01;31m[K^~~~~~~~~~~~~~[m[K
+     [32m[KPathRvizPlugin[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:79:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::load(const rviz::Config &config) {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::load(const rviz::Config&)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPanel[m[K’ has not been declared
+         [01;31m[KPanel[m[K::load(config);
+         [01;31m[K^~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:83:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::save(rviz::Config config) const {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:83:52:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid autolabor_plugin::save(rviz::Config)[m[K’ cannot have cv-qualifier
+     void PathMarkPlugin::save(rviz::Config config) [01;31m[Kconst[m[K {
+                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::save(rviz::Config)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPanel[m[K’ has not been declared
+         [01;31m[KPanel[m[K::save(config);
+         [01;31m[K^~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:87:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::start_record_callback() {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::start_record_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:90:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_record_client_[m[K’ was not declared in this scope
+         if (![01;31m[Kstart_record_client_[m[K.call(msg)) {
+              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:90:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstart_record_callback[m[K’
+         if (![01;36m[Kstart_record_client_[m[K.call(msg)) {
+              [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+              [32m[Kstart_record_callback[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_record_button_[m[K’ was not declared in this scope
+             [01;31m[Kstop_record_button_[m[K->setEnabled(true);
+             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:94:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_task_button_[m[K’ was not declared in this scope
+             [01;31m[Kstart_task_button_[m[K->setEnabled(false);
+             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:98:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::stop_record_callback() {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::stop_record_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:100:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_record_client_[m[K’ was not declared in this scope
+         if (![01;31m[Kstop_record_client_[m[K.call(msg)) {
+              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:100:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstop_record_callback[m[K’
+         if (![01;36m[Kstop_record_client_[m[K.call(msg)) {
+              [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+              [32m[Kstop_record_callback[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:103:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_task_button_[m[K’ was not declared in this scope
+             [01;31m[Kstart_task_button_[m[K->setEnabled(true);
+             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:107:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::start_task_callback() {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::start_task_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:111:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kgenerator_[m[K’ was not declared in this scope
+         msg.pose.orientation = tf::createQuaternionMsgFromYaw([01;31m[Kgenerator_[m[K.uniformReal(-M_PI, M_PI));
+                                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:111:63:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Koperator|[m[K’
+         msg.pose.orientation = tf::createQuaternionMsgFromYaw([01;36m[Kgenerator_[m[K.uniformReal(-M_PI, M_PI));
+                                                               [01;36m[K^~~~~~~~~~[m[K
+                                                               [32m[Koperator|[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:115:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_task_pub_[m[K’ was not declared in this scope
+         [01;31m[Kstart_task_pub_[m[K.publish(msg);
+         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:115:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstart_task_callback[m[K’
+         [01;36m[Kstart_task_pub_[m[K.publish(msg);
+         [01;36m[K^~~~~~~~~~~~~~~[m[K
+         [32m[Kstart_task_callback[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:118:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::stop_task_callback() {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::stop_task_callback()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_task_pub_[m[K’ was not declared in this scope
+         [01;31m[Kcancel_task_pub_[m[K.publish(msg);
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:123:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::initPoseTable(){
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::initPoseTable()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:125:9:[m[K [01;31m[Kerror: [m[K‘[01m[KposeArray_table_[m[K’ was not declared in this scope
+         [01;31m[KposeArray_table_[m[K->clear();
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:126:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_array_[m[K’ was not declared in this scope
+         [01;31m[Kpose_array_[m[K.poses.clear();
+         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:127:9:[m[K [01;31m[Kerror: [m[K‘[01m[KdeleteMark[m[K’ was not declared in this scope
+         [01;31m[KdeleteMark[m[K();
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:135:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ has not been declared
+     void [01;31m[KPathMarkPlugin[m[K::writePose(const geometry_msgs::PoseStamped::ConstPtr& msg) {
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin::writePose(const ConstPtr&)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:136:19:[m[K [01;31m[Kerror: [m[K‘[01m[KposeArray_table_[m[K’ was not declared in this scope
+         int row = [01;31m[KposeArray_table_[m[K->rowCount();
+                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kitem_[m[K’ was not declared in this scope
+         [01;31m[Kitem_[m[K->setTextAlignment(Qt::AlignCenter);
+         [01;31m[K^~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:148:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_array_[m[K’ was not declared in this scope
+         poseArray_table_->setItem([01;31m[Kpose_array_[m[K.poses.size() - 1, 1,
+                                   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/class_loader/class_loader.hpp:47:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/class_list_macros.h:35[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:160[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K At global scope:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:162:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPathMarkPlugin[m[K’ in namespace ‘[01m[Kautolabor_plugin[m[K’ does not name a type
+ PLUGINLIB_EXPORT_CLASS(autolabor_plugin::[01;31m[KP[m[KathMarkPlugin, rviz::Panel)
+                                          [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:43:14:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+     typedef  [01;36m[KDerived[m[K _derived; \
+              [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:162:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+ [01;36m[KP[m[KLUGINLIB_EXPORT_CLASS(autolabor_plugin::PathMarkPlugin, rviz::Panel)
+ [01;36m[K^[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:49:42:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+       class_loader::impl::registerPlugin<[01;31m[K_[m[Kderived, _base>(#Derived, #Base); \
+                                          [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:49:42:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+       class_loader::impl::registerPlugin<[01;36m[K_derived[m[K, _base>(#Derived, #Base); \
+                                          [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:162:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+ [01;36m[KP[m[KLUGINLIB_EXPORT_CLASS(autolabor_plugin::PathMarkPlugin, rviz::Panel)
+ [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:49:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [33], const char [12])[m[K’
+       class_loader::impl::registerPlugin<_derived, _base>(#Derived, #Base[01;31m[K)[m[K; \
+                                                                          [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:56:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K(Derived, Base, UniqueID, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:162:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+ [01;36m[KP[m[KLUGINLIB_EXPORT_CLASS(autolabor_plugin::PathMarkPlugin, rviz::Panel)
+ [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/class_loader/class_loader.hpp:46:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/class_list_macros.h:35[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:160[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader_core.hpp:172:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)
+ void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/class_loader_core.hpp:172:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/melodic/include/class_loader/class_loader.hpp:47:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/pluginlib/class_list_macros.h:35[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:160[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:49:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+       class_loader::impl::registerPlugin<_derived, _base>(#Derived, #Base[01;31m[K)[m[K; \
+                                                                          [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:56:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K(Derived, Base, UniqueID, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/pluginlib/./class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:162:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+ [01;36m[KP[m[KLUGINLIB_EXPORT_CLASS(autolabor_plugin::PathMarkPlugin, rviz::Panel)
+ [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+make: *** [all] Error 2

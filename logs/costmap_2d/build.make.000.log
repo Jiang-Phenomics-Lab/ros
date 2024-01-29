@@ -1,0 +1,124 @@
+[  0%] Built target _costmap_2d_generate_messages_check_deps_VoxelGrid
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  2%] [34m[1mGenerating dynamic reconfigure files from cfg/Costmap2D.cfg: /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/python2.7/dist-packages/costmap_2d/cfg/Costmap2DConfig.py[0m
+Generating reconfiguration files for Costmap2D in costmap_2d
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h
+[  5%] [34m[1mGenerating dynamic reconfigure files from cfg/GenericPlugin.cfg: /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/GenericPluginConfig.h /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/python2.7/dist-packages/costmap_2d/cfg/GenericPluginConfig.py[0m
+Generating reconfiguration files for GenericPlugin in costmap_2d
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/GenericPluginConfig.h
+[  8%] [34m[1mGenerating dynamic reconfigure files from cfg/InflationPlugin.cfg: /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/InflationPluginConfig.h /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/python2.7/dist-packages/costmap_2d/cfg/InflationPluginConfig.py[0m
+Generating reconfiguration files for InflationPlugin in costmap_2d
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/InflationPluginConfig.h
+[ 11%] [34m[1mGenerating dynamic reconfigure files from cfg/ObstaclePlugin.cfg: /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/ObstaclePluginConfig.h /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/python2.7/dist-packages/costmap_2d/cfg/ObstaclePluginConfig.py[0m
+Generating reconfiguration files for ObstaclePlugin in costmap_2d
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/ObstaclePluginConfig.h
+[ 14%] [34m[1mGenerating dynamic reconfigure files from cfg/VoxelPlugin.cfg: /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/VoxelPluginConfig.h /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/python2.7/dist-packages/costmap_2d/cfg/VoxelPluginConfig.py[0m
+Generating reconfiguration files for VoxelPlugin in costmap_2d
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/costmap_2d/include/costmap_2d/VoxelPluginConfig.h
+[ 14%] Built target costmap_2d_gencfg
+[ 14%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 14%] Built target dynamic_reconfigure_generate_messages_eus
+[ 14%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 14%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 14%] Built target dynamic_reconfigure_generate_messages_py
+[ 14%] Built target dynamic_reconfigure_gencfg
+[ 14%] Built target tf_generate_messages_cpp
+[ 14%] Built target tf_generate_messages_eus
+[ 14%] Built target tf_generate_messages_lisp
+[ 14%] Built target tf_generate_messages_nodejs
+[ 14%] Built target tf_generate_messages_py
+[ 14%] Built target roscpp_generate_messages_cpp
+[ 14%] Built target roscpp_generate_messages_eus
+[ 14%] Built target roscpp_generate_messages_lisp
+[ 14%] Built target roscpp_generate_messages_nodejs
+[ 14%] Built target roscpp_generate_messages_py
+[ 14%] Built target rosgraph_msgs_generate_messages_cpp
+[ 14%] Built target rosgraph_msgs_generate_messages_eus
+[ 14%] Built target rosgraph_msgs_generate_messages_lisp
+[ 14%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 14%] Built target rosgraph_msgs_generate_messages_py
+[ 14%] Built target sensor_msgs_generate_messages_cpp
+[ 14%] Built target sensor_msgs_generate_messages_eus
+[ 14%] Built target sensor_msgs_generate_messages_lisp
+[ 14%] Built target sensor_msgs_generate_messages_nodejs
+[ 14%] Built target sensor_msgs_generate_messages_py
+[ 14%] Built target actionlib_generate_messages_cpp
+[ 14%] Built target actionlib_generate_messages_eus
+[ 14%] Built target actionlib_generate_messages_lisp
+[ 14%] Built target actionlib_generate_messages_nodejs
+[ 14%] Built target actionlib_generate_messages_py
+[ 14%] Built target actionlib_msgs_generate_messages_cpp
+[ 14%] Built target actionlib_msgs_generate_messages_eus
+[ 14%] Built target actionlib_msgs_generate_messages_lisp
+[ 14%] Built target actionlib_msgs_generate_messages_nodejs
+[ 14%] Built target actionlib_msgs_generate_messages_py
+[ 14%] Built target tf2_msgs_generate_messages_cpp
+[ 14%] Built target tf2_msgs_generate_messages_eus
+[ 14%] Built target tf2_msgs_generate_messages_lisp
+[ 14%] Built target tf2_msgs_generate_messages_nodejs
+[ 14%] Built target tf2_msgs_generate_messages_py
+[ 14%] Built target nav_msgs_generate_messages_cpp
+[ 14%] Built target nav_msgs_generate_messages_eus
+[ 14%] Built target nav_msgs_generate_messages_lisp
+[ 14%] Built target nav_msgs_generate_messages_nodejs
+[ 14%] Built target nav_msgs_generate_messages_py
+[ 14%] Built target visualization_msgs_generate_messages_cpp
+[ 14%] Built target visualization_msgs_generate_messages_eus
+[ 14%] Built target visualization_msgs_generate_messages_lisp
+[ 14%] Built target visualization_msgs_generate_messages_nodejs
+[ 14%] Built target visualization_msgs_generate_messages_py
+[ 17%] [34m[1mGenerating Python from MSG costmap_2d/VoxelGrid[0m
+[ 20%] [34m[1mGenerating Python msg __init__.py for costmap_2d[0m
+[ 20%] Built target costmap_2d_generate_messages_py
+[ 22%] [34m[1mGenerating C++ code from costmap_2d/VoxelGrid.msg[0m
+[ 22%] Built target costmap_2d_generate_messages_cpp
+[ 25%] [34m[1mGenerating EusLisp manifest code for costmap_2d[0m
+[ 28%] [34m[1mGenerating EusLisp code from costmap_2d/VoxelGrid.msg[0m
+[ 28%] Built target costmap_2d_generate_messages_eus
+[ 31%] [34m[1mGenerating Lisp code from costmap_2d/VoxelGrid.msg[0m
+[ 31%] Built target costmap_2d_generate_messages_lisp
+[ 34%] [34m[1mGenerating Javascript code from costmap_2d/VoxelGrid.msg[0m
+[ 34%] Built target costmap_2d_generate_messages_nodejs
+[ 34%] Built target costmap_2d_generate_messages
+[ 37%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/layer.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/footprint.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so[0m
+[ 65%] Built target costmap_2d
+[ 68%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/liblayers.so[0m
+[ 82%] Built target layers
+[ 85%] [32mBuilding CXX object CMakeFiles/costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_markers[0m
+[ 88%] Built target costmap_2d_markers
+[ 91%] [32mBuilding CXX object CMakeFiles/costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_cloud[0m
+[ 94%] Built target costmap_2d_cloud
+[ 97%] [32mBuilding CXX object CMakeFiles/costmap_2d_node.dir/src/costmap_2d_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_node[0m
+[100%] Built target costmap_2d_node

@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target extract_images[0m
+[  5%] Built target image_view_gencfg
+[35m[1mConsolidate compiler generated dependencies of target image_saver[0m
+[35m[1mConsolidate compiler generated dependencies of target video_recorder[0m
+[35m[1mConsolidate compiler generated dependencies of target image_view[0m
+[ 17%] Built target extract_images
+[ 29%] Built target image_saver
+[35m[1mConsolidate compiler generated dependencies of target image_view_exe[0m
+[ 41%] Built target video_recorder
+[35m[1mConsolidate compiler generated dependencies of target disparity_view[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo_view[0m
+[ 52%] Built target image_view_exe
+[ 64%] Built target disparity_view
+[ 88%] Built target image_view
+[100%] Built target stereo_view

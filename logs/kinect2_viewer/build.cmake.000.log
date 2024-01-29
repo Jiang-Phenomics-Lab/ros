@@ -1,0 +1,95 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX11
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX11 - Success
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX0X
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/autolabor/catkin_ws/devel/.private/kinect2_viewer
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/autolabor/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/autolabor/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /opt/autolabor/ros/catkin_ws/build/kinect2_viewer/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Found OpenCV: /usr (found version "3.2.0")
+[36m--[0m Found OpenMP_CXX: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP: TRUE (found version "4.5")
+[36m--[0m Checking for module 'eigen3'
+[36m--[0m   Found eigen3, version 3.3.4
+[36m--[0m Found eigen: /usr/include/eigen3
+[36m--[0m Checking for module 'libopenni'
+[36m--[0m   Found libopenni, version 1.5.4.0
+[36m--[0m Found openni: /usr/lib/libOpenNI.so
+[36m--[0m The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m Found libusb-1.0: /usr/include
+[36m--[0m Checking for module 'flann'
+[36m--[0m   Found flann, version 1.9.1
+[36m--[0m Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+[36m--[0m Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so
+[36m--[0m Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[36m--[0m Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[36m--[0m Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[36m--[0m Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[36m--[0m Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[36m--[0m Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[36m--[0m Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[36m--[0m Found PCL_2D: /usr/include/pcl-1.8
+[36m--[0m Found PCL_GEOMETRY: /usr/include/pcl-1.8
+[36m--[0m Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[36m--[0m Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[36m--[0m Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[36m--[0m Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[36m--[0m Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[36m--[0m Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[36m--[0m Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[36m--[0m Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[36m--[0m Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[36m--[0m Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[36m--[0m Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[36m--[0m Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8
+[36m--[0m Found PCL_MODELER: /usr/include/pcl-1.8
+[36m--[0m Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8
+[36m--[0m Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[36m--[0m Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /opt/autolabor/ros/catkin_ws/build/kinect2_viewer

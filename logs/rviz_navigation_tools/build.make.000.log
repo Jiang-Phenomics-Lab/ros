@@ -1,0 +1,6 @@
+[ 25%] [34m[1mAutomatic MOC for target navigation_tools_panel[0m
+[ 25%] Built target navigation_tools_panel_autogen
+[ 50%] [32mBuilding CXX object CMakeFiles/navigation_tools_panel.dir/navigation_tools_panel_autogen/mocs_compilation.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/navigation_tools_panel.dir/src/navigation_tools_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/rviz_navigation_tools/lib/libnavigation_tools_panel.so[0m
+[100%] Built target navigation_tools_panel

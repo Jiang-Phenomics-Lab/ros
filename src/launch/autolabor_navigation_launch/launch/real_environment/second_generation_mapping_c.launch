@@ -1,0 +1,36 @@
+<launch>
+
+	<include file="$(find autolabor_navigation_launch)/launch/real_environment/second_generation_basic_base.launch">
+		<arg name="robot_pub_tf" value="false"/>
+	</include>
+
+	<!-- 建图节点 -->
+	<node name="cartographer_node" pkg="cartographer_ros"
+		type="cartographer_node" args="
+			-configuration_directory $(find autolabor_navigation_launch)/params/cartographer
+			-configuration_basename second_generation_mapping.lua"
+		output="screen">
+	</node>
+    <node name="pico_driver" pkg="pico_zense_driver" type="pico_zense_driver">
+      <param name="namespace" value="pico_camera"/>
+      <param name="frame_name" value="pico_camera"/>
+      <param name="device_index" value="0"/>
+      <param name="read_frame_interval" value="100"/>
+      <param name="depth_range" value="0"/>
+      <param name="background_filter_threshold" value="20"/>
+      <param name="skip_row" value="2"/>
+      <param name="skip_column" value="2"/>
+      <param name="output_depth_image" value="false"/>
+      <param name="output_color_image" value="false"/>
+      <param name="output_point_cloud" value="true"/>
+      <param name="depth_spatial_filter" value="true"/>
+      <param name="depth_time_filter" value="true"/>
+      <param name="depth_distortion_correction" value="true"/>
+      <param name="depth_straighten_correction" value="true"/>
+  	</node>
+
+   <node name="cartographer_occupancy_grid_node" pkg="cartographer_ros" type="cartographer_occupancy_grid_node" args="-resolution 0.05" />
+
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find autolabor_navigation_launch)/rviz/second_generation_create_map.rviz" />
+
+</launch>

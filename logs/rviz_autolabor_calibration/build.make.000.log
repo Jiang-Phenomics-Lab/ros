@@ -1,0 +1,6 @@
+[ 25%] [34m[1mAutomatic MOC for target autolabor_calibration_panel[0m
+[ 25%] Built target autolabor_calibration_panel_autogen
+[ 50%] [32mBuilding CXX object CMakeFiles/autolabor_calibration_panel.dir/autolabor_calibration_panel_autogen/mocs_compilation.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/autolabor_calibration_panel.dir/src/autolabor_calibration_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/rviz_autolabor_calibration/lib/libautolabor_calibration_panel.so[0m
+[100%] Built target autolabor_calibration_panel

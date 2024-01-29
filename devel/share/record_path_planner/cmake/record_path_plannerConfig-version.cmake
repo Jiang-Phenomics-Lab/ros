@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/record_path_planner/share/record_path_planner/cmake/record_path_plannerConfig-version.cmake

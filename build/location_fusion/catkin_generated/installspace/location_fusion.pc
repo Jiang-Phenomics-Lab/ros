@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/install
+
+Name: location_fusion
+Description: Description of location_fusion
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

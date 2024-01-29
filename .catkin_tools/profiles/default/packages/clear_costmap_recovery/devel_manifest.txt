@@ -1,0 +1,6 @@
+navigation/clear_costmap_recovery
+/home/autolabor/catkin_ws/devel/.private/clear_costmap_recovery/cmake.lock /home/autolabor/catkin_ws/devel/./cmake.lock
+/home/autolabor/catkin_ws/devel/.private/clear_costmap_recovery/share/clear_costmap_recovery/cmake/clear_costmap_recoveryConfig-version.cmake /home/autolabor/catkin_ws/devel/share/clear_costmap_recovery/cmake/clear_costmap_recoveryConfig-version.cmake
+/home/autolabor/catkin_ws/devel/.private/clear_costmap_recovery/share/clear_costmap_recovery/cmake/clear_costmap_recoveryConfig.cmake /home/autolabor/catkin_ws/devel/share/clear_costmap_recovery/cmake/clear_costmap_recoveryConfig.cmake
+/home/autolabor/catkin_ws/devel/.private/clear_costmap_recovery/lib/libclear_costmap_recovery.so /home/autolabor/catkin_ws/devel/lib/libclear_costmap_recovery.so
+/home/autolabor/catkin_ws/devel/.private/clear_costmap_recovery/lib/pkgconfig/clear_costmap_recovery.pc /home/autolabor/catkin_ws/devel/lib/pkgconfig/clear_costmap_recovery.pc

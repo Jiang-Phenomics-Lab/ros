@@ -1,0 +1,30 @@
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:107:25:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[KonInitialize[m[K’ not allowed outside a class definition
+     void onInitialize() [01;31m[Koverride[m[K
+                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In function ‘[01m[Kvoid autolabor_plugin1::onInitialize()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:109:2:[m[K [01;31m[Kerror: [m[K‘[01m[KDisplay[m[K’ has not been declared
+  [01;31m[KDisplay[m[K::onInitialize();
+  [01;31m[K^~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:110:40:[m[K [01;31m[Kerror: [m[K‘[01m[KgetVisualizationManager[m[K’ was not declared in this scope
+  rviz::VisualizationManager* manager = [01;31m[KgetVisualizationManager[m[K();
+                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:110:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K_ZTIN4rviz20VisualizationManagerE[m[K’
+  rviz::VisualizationManager* manager = [01;36m[KgetVisualizationManager[m[K();
+                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                        [32m[K_ZTIN4rviz20VisualizationManagerE[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:111:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rviz::VisualizationManager[m[K’ has no member named ‘[01m[KaddResetCallback[m[K’
+  manager->[01;31m[KaddResetCallback[m[K(boost::bind(&PathMarkPlugin::resetTable, this));
+           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:111:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::resetTable()[m[K’ is protected within this context
+  manager->addResetCallback(boost::bind(&PathMarkPlugin::[01;31m[KresetTable[m[K, this));
+                                                         [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:8:0[m[K:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:107:7:[m[K [01;36m[Knote: [m[Kdeclared protected here
+  void [01;36m[KresetTable[m[K();
+       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:111:69:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  manager->addResetCallback(boost::bind(&PathMarkPlugin::resetTable, [01;31m[Kthis[m[K));
+                                                                     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+make: *** [all] Error 2

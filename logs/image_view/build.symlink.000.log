@@ -1,0 +1,17 @@
+Symlinking /home/autolabor/catkin_ws/devel/include/image_view/ImageViewConfig.h
+Symlinking /home/autolabor/catkin_ws/devel/share/image_view/cmake/image_viewConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/image_view/cmake/image_viewConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/image_view/docs/ImageViewConfig.dox
+Symlinking /home/autolabor/catkin_ws/devel/share/image_view/docs/ImageViewConfig.wikidoc
+Symlinking /home/autolabor/catkin_ws/devel/share/image_view/docs/ImageViewConfig-usage.dox
+Symlinking /home/autolabor/catkin_ws/devel/lib/libimage_view.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_view/video_recorder
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_view/image_view
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_view/image_saver
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_view/disparity_view
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_view/stereo_view
+Symlinking /home/autolabor/catkin_ws/devel/lib/image_view/extract_images
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/image_view/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/image_view/cfg/__init__.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/image_view.pc

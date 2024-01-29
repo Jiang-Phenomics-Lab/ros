@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/rviz_keyboard_twist/cmake/rviz_keyboard_twistConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/rviz_keyboard_twist/cmake/rviz_keyboard_twistConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libkeyboard_twist_panel.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/rviz_keyboard_twist.pc

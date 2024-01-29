@@ -1,0 +1,7 @@
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:[m[K In member function ‘[01m[Kvoid autolabor_plugin1::PathMarkPlugin::resetTable()[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:113:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetRowCount[m[K’ in ‘[01m[K((autolabor_plugin1::PathMarkPlugin*)this)->autolabor_plugin1::PathMarkPlugin::poseArray_table_[m[K’, which is of pointer type ‘[01m[KQTableWidget*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  poseArray_table_.[01;31m[KsetRowCount[m[K(0);
+                   [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+make: *** [all] Error 2

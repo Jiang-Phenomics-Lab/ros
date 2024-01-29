@@ -1,0 +1,130 @@
+[  0%] Built target cartographer_ros_detect_changes
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target cartographer_ros_msgs_generate_messages_cpp
+[  0%] Built target cartographer_ros_msgs_generate_messages_eus
+[  0%] Built target cartographer_ros_msgs_generate_messages_lisp
+[  0%] Built target cartographer_ros_msgs_generate_messages_nodejs
+[  0%] Built target cartographer_ros_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/assets_writer.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/map_builder_bridge.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/metrics/family_factory.cc.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/metrics/internal/family.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/metrics/internal/histogram.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/msg_conversion.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node.cc.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node_constants.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node_options.cc.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/offline_node.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/playable_bag.cc.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_log_sink.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_map.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_map_writing_points_processor.cc.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/sensor_bridge.cc.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/submap.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/tf_bridge.cc.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/time_conversion.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/trajectory_options.cc.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/urdf_reader.cc.o[0m
+[ 45%] [32m[1mLinking CXX static library /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/libcartographer_ros.a[0m
+[ 45%] Built target cartographer_ros
+[ 47%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_assets_writer.dir/assets_writer_main.cc.o[0m
+[ 50%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_assets_writer.dir/ros_map_writing_points_processor.cc.o[0m
+[ 52%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer[0m
+[ 52%] Built target cartographer_assets_writer
+[ 54%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_node.dir/node_main.cc.o[0m
+[ 56%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_node[0m
+[ 58%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_offline_node.dir/offline_node_main.cc.o[0m
+[ 58%] Built target cartographer_node
+[ 60%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_occupancy_grid_node.dir/occupancy_grid_node_main.cc.o[0m
+[ 63%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_offline_node[0m
+[ 63%] Built target cartographer_offline_node
+[ 65%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_rosbag_validate.dir/rosbag_validate_main.cc.o[0m
+[ 67%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node[0m
+[ 67%] Built target cartographer_occupancy_grid_node
+[ 69%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_pbstream_to_ros_map.dir/pbstream_to_ros_map_main.cc.o[0m
+[ 71%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map[0m
+[ 71%] Built target cartographer_pbstream_to_ros_map
+[ 73%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_pbstream_map_publisher.dir/pbstream_map_publisher_main.cc.o[0m
+[ 76%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher[0m
+[ 78%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate[0m
+[ 78%] Built target cartographer_pbstream_map_publisher
+[ 80%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_dev_pbstream_trajectories_to_rosbag.dir/dev/pbstream_trajectories_to_rosbag_main.cc.o[0m
+[ 80%] Built target cartographer_rosbag_validate
+[ 82%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_dev_rosbag_publisher.dir/dev/rosbag_publisher_main.cc.o[0m
+[ 84%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_dev_pbstream_trajectories_to_rosbag[0m
+[ 86%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_dev_rosbag_publisher[0m
+[ 86%] Built target cartographer_dev_pbstream_trajectories_to_rosbag
+[ 89%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_dev_trajectory_comparison.dir/dev/trajectory_comparison_main.cc.o[0m
+[ 89%] Built target cartographer_dev_rosbag_publisher
+[ 91%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_grpc_node.dir/cartographer_grpc/node_grpc_main.cc.o[0m
+[ 93%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_grpc_node[0m
+[ 95%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_dev_trajectory_comparison[0m
+[ 95%] Built target cartographer_dev_trajectory_comparison
+[ 97%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_grpc_offline_node.dir/cartographer_grpc/offline_node_grpc_main.cc.o[0m
+[ 97%] Built target cartographer_grpc_node
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/cartographer_ros/lib/cartographer_ros/cartographer_grpc_offline_node[0m
+[100%] Built target cartographer_grpc_offline_node

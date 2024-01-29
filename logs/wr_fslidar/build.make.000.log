@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/fslidar_node.dir/src/node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fslidar_node.dir/src/fslidar.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/fslidar_node.dir/src/serial.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/wr_fslidar/lib/wr_fslidar/fslidar_node[0m
+[100%] Built target fslidar_node

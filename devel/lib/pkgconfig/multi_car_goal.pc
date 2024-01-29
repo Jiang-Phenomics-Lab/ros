@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/multi_car_goal/lib/pkgconfig/multi_car_goal.pc

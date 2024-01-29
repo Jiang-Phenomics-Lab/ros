@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autolabor/catkin_ws/devel/.private/autolabor_simulation_base/setup.sh

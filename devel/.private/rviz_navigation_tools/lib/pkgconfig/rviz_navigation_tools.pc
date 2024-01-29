@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/rviz_navigation_tools
+
+Name: rviz_navigation_tools
+Description: Description of rviz_navigation_tools
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,10 @@
+[ 20%] [34m[1mGenerating dynamic reconfigure files from cfg/ImageRotate.cfg: /home/autolabor/catkin_ws/devel/.private/image_rotate/include/image_rotate/ImageRotateConfig.h /home/autolabor/catkin_ws/devel/.private/image_rotate/lib/python2.7/dist-packages/image_rotate/cfg/ImageRotateConfig.py[0m
+Generating reconfiguration files for ImageRotate in image_rotate
+Wrote header file in /home/autolabor/catkin_ws/devel/.private/image_rotate/include/image_rotate/ImageRotateConfig.h
+[ 20%] Built target image_rotate_gencfg
+[ 40%] [32mBuilding CXX object CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable /home/autolabor/catkin_ws/devel/.private/image_rotate/lib/image_rotate/image_rotate[0m
+[ 60%] Built target image_rotate_exe
+[ 80%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autolabor/catkin_ws/devel/.private/image_rotate/lib/libimage_rotate.so[0m
+[100%] Built target image_rotate

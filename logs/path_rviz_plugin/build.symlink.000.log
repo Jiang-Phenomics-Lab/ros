@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/path_rviz_plugin/cmake/path_rviz_pluginConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/path_rviz_plugin/cmake/path_rviz_pluginConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/libpath_rviz_plugin.so
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/path_rviz_plugin.pc

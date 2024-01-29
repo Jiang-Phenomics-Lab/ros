@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/devel/.private/autolabor_simulation_object
+
+Name: autolabor_simulation_object
+Description: Description of autolabor_simulation_object
+Version: 0.0.1
+Cflags: -I/home/autolabor/catkin_ws/src/simulation/autolabor_simulation_object/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/autolabor/catkin_ws/install
+
+Name: photo_point
+Description: Description of photo_point
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

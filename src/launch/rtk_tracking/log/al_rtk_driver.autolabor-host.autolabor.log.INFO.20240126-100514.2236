@@ -1,0 +1,19 @@
+Log file created at: 2024/01/26 10:05:14
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240126 10:05:14.125038  2236 al_rtk_raw_driver.cpp:726] start rtk driver
+E20240126 10:05:14.126293  2236 al_rtk_raw_driver.cpp:534] ntrips domain query error :Name or service not known
+I20240126 10:05:14.126488  2236 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240126 10:05:14.127207  2236 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240126 10:05:16.127610  2236 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240126 10:05:20.127964  2236 al_rtk_raw_driver.cpp:266] rtk device initialized.
+E20240126 10:05:20.128022  2236 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:05:25.126770  2236 al_rtk_raw_driver.cpp:534] ntrips domain query error :Name or service not known
+E20240126 10:05:25.126832  2236 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:05:30.130815  2236 al_rtk_raw_driver.cpp:534] ntrips domain query error :Name or service not known
+E20240126 10:05:30.130870  2236 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:05:35.131783  2236 al_rtk_raw_driver.cpp:534] ntrips domain query error :Name or service not known
+E20240126 10:05:35.131912  2236 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240126 10:05:40.134614  2236 al_rtk_raw_driver.cpp:534] ntrips domain query error :Name or service not known
+E20240126 10:05:40.134753  2236 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

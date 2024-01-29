@@ -1,0 +1,4 @@
+Symlinking /home/autolabor/catkin_ws/devel/share/autolabor_simulation_location/cmake/autolabor_simulation_locationConfig.cmake
+Symlinking /home/autolabor/catkin_ws/devel/share/autolabor_simulation_location/cmake/autolabor_simulation_locationConfig-version.cmake
+Symlinking /home/autolabor/catkin_ws/devel/lib/autolabor_simulation_location/simulation_location_node
+Symlinking /home/autolabor/catkin_ws/devel/lib/pkgconfig/autolabor_simulation_location.pc

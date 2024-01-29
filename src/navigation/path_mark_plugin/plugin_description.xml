@@ -1,0 +1,9 @@
+<library path="lib/libpath_mark_plugin">
+    <class name="path_mark_plugin/PathMarkPlugin"
+           type="autolabor_plugin1::PathMarkPlugin"
+           base_class_type="rviz::Panel">
+        <description>
+            A panel widget is used to record path.
+        </description>
+    </class>
+</library>

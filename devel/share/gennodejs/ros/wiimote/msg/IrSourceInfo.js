@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/wiimote/share/gennodejs/ros/wiimote/msg/IrSourceInfo.js

@@ -1,0 +1,1 @@
+/home/autolabor/catkin_ws/devel/.private/autolabor_keyboard_control/share/autolabor_keyboard_control/cmake/autolabor_keyboard_controlConfig.cmake
