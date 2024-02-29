@@ -23,19 +23,29 @@ void callback(const nav_msgs::Path::ConstPtr &msg){
 	tf2_ros::TransformListener tfListener_(tfBuffer_);
 	std::string target_frame = "map";
 	std::string child_frame = "base_link";
-	double min = 999;
-	int min_marker;
-	int min_before = 999;
+	double min = INT_MAX;
+	int min_marker = INT_MIN;
+	int min_before = INT_MAX;
 	//bool photo_flag = true;
-	ros::Rate loop_rate(0.2);
+	ros::Rate loop_rate(1);
+	// std::ofstream outputFile("/home/autolabor/catkin_ws/src/navigation/photo_point/carPos.txt", std::ios::trunc);
 	while(ros::ok){
 		  if (tfBuffer_.canTransform(target_frame, child_frame, 
 		  ros::Time(0),ros::Duration(4.0))) 
 		{
-		//ROS_ERROR("got car pos");
+		ROS_ERROR("got car pos");
 		geometry_msgs::TransformStamped transformStamped = tfBuffer_.lookupTransform(target_frame, child_frame,ros::Time(0),ros::Duration(4.0));
 		double x = transformStamped.transform.translation.x;
 		double y = transformStamped.transform.translation.y;
+		ROS_ERROR("car pos %f;%f",x,y);
+
+		//save the car position into file
+		// std::ofstream outputFile("/home/autolabor/catkin_ws/src/navigation/photo_point/carPos.txt",std::ios::app);
+		// outputFile << x<<" "<< y << std::endl;
+		// outputFile.close();
+		
+
+
 		//ROS_ERROR("car pos %f;%f",x,y);
 		record_path_point_ = *msg;
 		//ROS_ERROR(record_path_point_);
@@ -51,10 +61,13 @@ void callback(const nav_msgs::Path::ConstPtr &msg){
 		  //ROS_ERROR("i = %d",i);
 		  //ROS_ERROR("mark pos %f;%f",dx,dy);
 		  double distance = sqrt((dx-x)*(dx-x)+(dy-y)*(dy-y));
-		  ROS_ERROR("min:%f;min_marker:%d;distance:%f",min,min_marker,distance); 
+		  ROS_ERROR("compare pos %f;%f",x,y);
 		  if(distance < min){
+		  min_marker = id;
+		  }
+		  //ROS_ERROR("min:%f;min_marker:%d;distance:%f",min,min_marker,distance); 
+		  if(distance < min && min_marker != min_before){
 			min = distance;
-			min_marker = id;
 			
 			}
 
@@ -73,27 +86,29 @@ void callback(const nav_msgs::Path::ConstPtr &msg){
 			//photo_flag = true;
 			//ROS_ERROR("distance > 1.5");
 			//  	    	 }
-		 //ROS_ERROR("min:%f;min_marker:%d",min,min_marker); 
-		 if(min < 0.5 && min_marker!=min_before){
-	     ROS_ERROR("take_photo at point:%d",min_marker); 
+		 ROS_ERROR("min:%f;min_marker:%d",min,min_marker); 
+		 if(min < 0.2 && min_marker!=min_before){
+		 	ROS_ERROR("take_photo at point:%d",min_marker); 
+		 	min_before = min_marker;
+	     	min = INT_MAX;
+	     	ROS_ERROR("min:%f;min_marker:%d",min,min_marker);
 
-		actionlib_msgs::GoalID msg1;
-        msg1.stamp = ros::Time::now();
-        cancel_task_pub_.publish(msg1);
+			actionlib_msgs::GoalID msg1;
+        	msg1.stamp = ros::Time::now();
+        	cancel_task_pub_.publish(msg1);
 
-	     int result = system("/home/autolabor/anaconda3/envs/orbbec/bin/python /home/autolabor/Desktop/pyorbbecsdk/examples/highAngle.py");
-	     ROS_ERROR("result:%d", result);      
-	     min_before = min_marker;
-	     min = 999;
+	     	system("/home/autolabor/anaconda3/envs/orbbec/bin/python /home/autolabor/Desktop/pyorbbecsdk/examples/highAngle.py");
+	     //ROS_ERROR("result:%d", result);      
+
 		 
-		geometry_msgs::PoseStamped msg;
-        msg.header.stamp = ros::Time::now();
-        msg.header.frame_id = "map";
-        msg.pose.orientation = tf::createQuaternionMsgFromYaw(generator_.uniformReal(-M_PI, M_PI));
-        msg.pose.position.x = generator_.uniformReal(-100, 100);
-        msg.pose.position.y = generator_.uniformReal(-100, 100);
-        msg.pose.position.z = generator_.uniformReal(-100, 100);
-        start_task_pub_.publish(msg);
+			geometry_msgs::PoseStamped msg;
+        	msg.header.stamp = ros::Time::now();
+        	msg.header.frame_id = "map";
+        	msg.pose.orientation = tf::createQuaternionMsgFromYaw(generator_.uniformReal(-M_PI, M_PI));
+        	msg.pose.position.x = generator_.uniformReal(-100, 100);
+        	msg.pose.position.y = generator_.uniformReal(-100, 100);
+        	msg.pose.position.z = generator_.uniformReal(-100, 100);
+        	start_task_pub_.publish(msg);
 		 }
 		loop_rate.sleep();
              }

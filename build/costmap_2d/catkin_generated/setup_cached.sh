@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autolabor/catkin_ws/devel/.private/costmap_2d:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/autolabor/catkin_ws/devel/.private/costmap_2d/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/opt/autolabor/ros/catkin_ws/build/costmap_2d'
+export PYTHONPATH="/home/autolabor/catkin_ws/devel/.private/costmap_2d/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/autolabor/catkin_ws/devel/.private/costmap_2d/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/autolabor/catkin_ws/src/navigation/costmap_2d:$ROS_PACKAGE_PATH"

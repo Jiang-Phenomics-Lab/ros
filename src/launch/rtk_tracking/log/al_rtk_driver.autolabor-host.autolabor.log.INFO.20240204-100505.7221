@@ -1,0 +1,24 @@
+Log file created at: 2024/02/04 10:05:05
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240204 10:05:05.529073  7221 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240204 10:05:05.616420  7221 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240204 10:05:05.616936  7221 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240204 10:05:07.617048  7221 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240204 10:05:11.617575  7221 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240204 10:05:11.617692  7221 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240204 10:05:11.686508  7221 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+E20240204 10:05:11.686566  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:05:16.690755  7221 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240204 10:05:21.741734  7221 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240204 10:05:21.800668  7221 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+E20240204 10:05:21.800716  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:05:26.802242  7221 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240204 10:05:31.846618  7221 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240204 10:05:31.957486  7221 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+E20240204 10:05:31.957554  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:05:36.962189  7221 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240204 10:05:42.005832  7221 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240204 10:05:42.057610  7221 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+E20240204 10:05:42.057686  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.

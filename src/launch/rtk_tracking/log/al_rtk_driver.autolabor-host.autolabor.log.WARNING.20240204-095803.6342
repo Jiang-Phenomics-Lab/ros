@@ -1,0 +1,46 @@
+Log file created at: 2024/02/04 09:58:03
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240204 09:58:03.428599  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:58:08.427839  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:58:13.516412  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:58:18.517298  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:58:23.605273  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:58:28.604897  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:58:33.716423  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:58:38.721957  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:58:43.822561  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:58:48.826321  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:58:53.928704  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:58:58.926699  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:59:04.083160  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:59:09.086105  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:59:14.221530  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:59:19.223927  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:59:24.308302  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:59:29.307693  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:59:34.425542  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:59:39.431864  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:59:44.616590  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:59:49.616613  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 09:59:54.695328  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 09:59:59.698371  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:00:04.794253  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:00:09.794458  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:00:14.888787  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:00:19.887019  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:00:24.970253  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:00:29.971925  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:00:35.057991  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:00:40.063482  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:00:45.204928  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:00:50.202632  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:00:55.292272  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:01:00.292795  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:01:05.528105  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:01:10.526631  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:01:15.615145  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:01:20.617427  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:01:25.690546  6342 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:01:30.690550  6342 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

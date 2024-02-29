@@ -9,13 +9,13 @@ acc_lim_x: 0.2
 acc_lim_theta: 0.1
 
 # Maximum translational velocity of the robot in meters/sec  (double, default: 0.4)
-max_vel_x: 0.8
+max_vel_x: 0.2
 
 # Maximum absolute translational velocity of the robot while driving backwards in meters/sec. See optimization parameter weight_kinematics_forward_drive
-max_vel_x_backwards: 0.6
+max_vel_x_backwards: 0.2
 
 # Maximum angular velocity of the robot in radians/sec (double, default: 0.3)
-max_vel_theta: 0.6
+max_vel_theta: 0.2
 
 #==============================================================
 # The following parameters are relevant only for carlike robots:

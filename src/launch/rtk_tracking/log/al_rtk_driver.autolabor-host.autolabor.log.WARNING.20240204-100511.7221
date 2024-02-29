@@ -1,0 +1,11 @@
+Log file created at: 2024/02/04 10:05:11
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240204 10:05:11.686566  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:05:16.690755  7221 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:05:21.800716  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:05:26.802242  7221 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:05:31.957554  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:05:36.962189  7221 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240204 10:05:42.057686  7221 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.

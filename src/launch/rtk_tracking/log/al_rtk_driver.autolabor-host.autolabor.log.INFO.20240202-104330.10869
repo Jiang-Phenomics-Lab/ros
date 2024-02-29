@@ -1,0 +1,610 @@
+Log file created at: 2024/02/02 10:43:30
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240202 10:43:30.318555 10869 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240202 10:43:30.456218 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:43:30.456980 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:43:32.457077 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:43:36.457499 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:43:36.457603 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240202 10:43:36.565084 10869 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240202 10:43:36.565143 10869 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+I20240202 10:43:36.565176 10869 al_rtk_raw_driver.cpp:286] send first gpgga to ntrip service :$GPGGA,024336.00,4000.25550244,N,11622.40822750,E,4,13,2.2,46.8720,M,-9.2309,M,21,1540*42
+  1
+E20240202 10:44:50.101612 10869 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 10:44:50.102207 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:44:55.193343 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:45:10.102970 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:45:10.103116 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:45:15.151932 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:45:30.107657 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:45:30.107769 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:45:35.258783 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:45:50.110985 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:45:50.111102 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:45:55.169840 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:46:10.118006 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:46:10.118150 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:46:15.308169 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:46:30.129688 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:46:30.129858 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:46:35.197711 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:46:50.132162 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:46:50.132297 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:46:55.283035 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:47:10.141140 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:47:10.141278 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:47:15.531338 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:47:21.848872 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:47:21.849015 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:47:21.849098 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:47:26.854215 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:47:26.854516 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:47:28.854629 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:47:32.855064 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+E20240202 10:47:36.145458 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:47:36.145601 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:47:41.236168 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:47:41.940001 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:47:41.940125 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:47:41.940197 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:47:46.945292 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:47:46.945605 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:47:48.945750 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:47:52.946219 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+E20240202 10:48:02.162446 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:48:02.162608 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:48:02.162672 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:48:02.162781 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:48:02.162854 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:48:07.230731 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:48:07.231045 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:48:09.231182 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:48:13.231688 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:48:13.231779 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:48:28.246917 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:48:28.247061 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:48:28.247114 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:48:28.247205 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:48:28.247267 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:48:33.346206 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:48:33.346542 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:48:35.346674 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:48:39.347146 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:48:39.347214 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:48:54.348693 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:48:54.348798 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:48:54.348836 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:48:54.348908 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:48:54.348953 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:48:59.429066 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:48:59.429335 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:49:01.429468 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:49:05.429939 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:49:05.430009 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:49:20.445113 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:49:20.445271 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:49:20.445338 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:49:20.445437 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:49:20.445505 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:49:25.510226 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:49:25.510462 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:49:27.510571 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:49:31.510996 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:49:31.511072 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:49:46.523250 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:49:46.523414 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:49:46.523478 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:49:46.523576 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:49:46.523669 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:49:51.668807 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:49:51.669072 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:49:53.669201 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:49:57.669708 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:49:57.669818 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:50:12.683432 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:50:12.683607 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:50:12.683676 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:50:12.683801 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:50:12.683881 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:50:17.785125 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:50:17.785390 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:50:19.785526 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:50:23.786073 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:50:23.786162 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:50:38.788194 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:50:38.788349 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:50:38.788408 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:50:38.788507 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:50:38.788578 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:50:43.877743 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:50:43.877993 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:50:45.878129 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:50:49.878598 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:50:49.878664 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:51:04.893764 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:51:04.893918 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:51:04.894003 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:51:04.894104 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:51:04.894174 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:51:09.968430 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:51:09.968679 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:51:11.968803 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:51:15.969292 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:51:15.969362 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:51:30.978386 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:51:30.978536 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:51:30.978591 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:51:30.978682 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:51:30.978744 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:51:36.013958 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:51:36.014202 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:51:38.014330 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:51:42.014781 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:51:42.014843 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:51:57.029665 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:51:57.029793 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:51:57.029842 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:51:57.029925 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:51:57.029982 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:52:02.117414 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:52:02.117717 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:52:04.117826 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:52:08.118245 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:52:08.118328 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:52:23.132488 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:52:23.132648 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:52:23.132709 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:52:23.132812 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:52:23.132884 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:52:28.347321 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:52:28.347561 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:52:30.347707 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:52:34.348176 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:52:34.348250 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:52:49.356890 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:52:49.357043 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:52:49.357107 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:52:49.357203 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:52:49.357271 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:52:54.445760 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:52:54.446020 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:52:56.446137 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:53:00.446573 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:53:00.446652 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:53:15.461763 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:53:15.461864 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:53:15.461910 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:53:15.461978 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:53:15.462021 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:53:20.626298 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:53:20.626587 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:53:22.626694 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:53:26.627120 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:53:26.627187 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:53:41.637681 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:53:41.637867 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:53:41.637944 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:53:41.638088 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:53:41.638177 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:53:50.801724 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:53:50.802037 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:53:52.802150 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:53:56.802577 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:53:56.802618 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:54:11.817562 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:54:11.817693 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:54:11.817765 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:54:11.817857 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:54:11.817917 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:54:16.966768 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:54:16.966979 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:54:18.967088 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:54:22.967543 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:54:22.967645 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:54:37.981773 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:54:37.981918 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:54:37.981999 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:54:37.982095 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:54:37.982153 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:54:43.039011 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:54:43.039304 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:54:45.039435 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:54:49.039911 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:54:49.039999 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:55:04.053658 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:55:04.053753 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:55:04.053792 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:55:04.053864 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:55:04.060057 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:55:09.126282 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:55:09.126544 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:55:11.126663 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:55:15.127156 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:55:15.127254 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:55:30.129664 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:55:30.129776 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:55:30.129823 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:55:30.129897 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:55:30.129946 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:55:35.162909 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:55:35.163169 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:55:37.163290 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:55:41.163772 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:55:41.163862 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:55:56.177481 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:55:56.177714 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:55:56.177800 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:55:56.177907 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:55:56.184208 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:56:01.228125 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:56:01.228332 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:56:03.228435 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:56:07.228873 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:56:07.228989 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:56:22.241485 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:56:22.241685 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:56:22.241739 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:56:22.241819 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:56:22.241873 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:56:27.276039 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:56:27.276311 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:56:29.276433 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:56:33.276898 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:56:33.276960 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:56:48.292057 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:56:48.292176 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:56:48.292217 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:56:48.292290 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:56:48.292340 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:56:53.332897 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:56:53.333168 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:56:55.333290 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:56:59.333792 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:56:59.333884 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:57:14.348273 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:57:14.348430 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:57:14.348500 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:57:14.348605 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:57:14.348678 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:57:19.385636 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:57:19.385900 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:57:21.386020 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:57:25.386478 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:57:25.386579 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:57:40.400705 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:57:40.400854 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:57:40.400907 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:57:40.401002 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:57:40.407305 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:57:45.437911 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:57:45.438275 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:57:47.438419 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:57:51.438946 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:57:51.439051 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:58:06.452303 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:58:06.452468 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:58:06.452548 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:58:06.452651 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:58:06.452723 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:58:11.510241 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:58:11.510493 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:58:13.510603 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:58:17.511103 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:58:17.511180 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:58:32.519654 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:58:32.519766 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:58:32.519806 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:58:32.519876 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:58:32.519923 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:58:37.597719 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:58:37.597954 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:58:39.598114 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:58:43.598644 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:58:43.598742 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:58:58.613683 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:58:58.613765 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:58:58.613793 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:58:58.613848 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:58:58.613883 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:59:03.652858 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:59:03.653194 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:59:05.653323 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:59:09.653786 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:59:09.653877 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:59:24.661924 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:59:24.662052 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:59:24.662133 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:59:24.662230 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:59:24.662320 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:59:29.744025 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:59:29.744274 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:59:31.744401 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:59:35.744899 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:59:35.744990 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 10:59:50.760128 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:59:50.760293 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:59:50.760347 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:59:50.760438 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 10:59:50.760500 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 10:59:55.833146 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:59:55.833354 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:59:57.833469 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:00:01.833963 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:00:01.834049 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:00:16.846478 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:00:16.846608 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:00:16.846680 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:00:16.846814 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:00:16.846885 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:00:21.880018 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:00:21.880285 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:00:23.880424 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:00:27.880900 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:00:27.880992 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:00:42.886315 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:00:42.886456 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:00:42.886513 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:00:42.886610 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:00:42.886684 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:00:47.933905 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:00:47.934137 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:00:49.934273 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:00:53.934758 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:00:53.934826 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:01:08.949930 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:01:08.950089 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:01:08.950160 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:01:08.950243 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:01:08.950299 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:01:13.985178 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:01:13.985404 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:01:15.985507 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:01:19.985937 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:01:19.986017 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:01:35.001139 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:01:35.001286 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:01:35.001351 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:01:35.001461 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:01:35.001533 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:01:40.043949 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:01:40.044229 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:01:42.044348 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:01:46.044826 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:01:46.044914 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:02:01.046762 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:02:01.046885 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:02:01.046926 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:02:01.046999 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:02:01.047049 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:02:06.135118 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:02:06.135401 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:02:08.135553 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:02:12.136044 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:02:12.136132 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:02:27.147548 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:02:27.147686 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:02:27.147737 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:02:27.147826 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:02:27.147894 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:02:32.191866 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:02:32.192121 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:02:34.192257 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:02:38.192718 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:02:38.192782 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:02:53.200956 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:02:53.201090 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:02:53.201145 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:02:53.201237 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:02:53.201303 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:02:58.258316 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:02:58.258543 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:03:00.258661 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:03:04.259089 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:03:04.259155 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:03:19.274246 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:03:19.274394 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:03:19.274447 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:03:19.274544 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:03:19.274607 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:03:24.318006 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:03:24.318245 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:03:26.318357 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:03:30.318749 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:03:30.318840 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:03:45.333470 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:03:45.333581 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:03:45.333642 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:03:45.333717 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:03:45.333822 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:03:50.387606 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:03:50.387940 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:03:52.388082 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:03:56.388576 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:03:56.388653 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:04:11.400055 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:04:11.400193 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:04:11.400242 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:04:11.400326 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:04:11.400383 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:04:16.447777 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:04:16.448146 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:04:18.448283 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:04:22.448763 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:04:22.448846 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:04:37.463982 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:04:37.464144 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:04:37.464218 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:04:37.464305 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:04:37.464361 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:04:42.531067 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:04:42.531349 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:04:44.531489 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:04:48.532003 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:04:48.532095 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:05:03.535142 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:05:03.535305 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:05:03.535372 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:05:03.535478 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:05:03.535553 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:05:08.577298 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:05:08.577562 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:05:10.577689 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:05:14.578174 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:05:14.578265 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:05:29.591759 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:05:29.591887 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:05:29.591933 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:05:29.592015 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:05:29.592070 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:05:34.628159 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:05:34.628448 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:05:36.628580 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:05:40.629056 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:05:40.629146 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:05:55.644280 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:05:55.644408 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:05:55.644459 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:05:55.644538 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:05:55.644594 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:06:00.686302 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:06:00.686604 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:06:02.686750 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:06:06.687248 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:06:06.687337 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:06:21.701823 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:06:21.701954 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:06:21.702003 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:06:21.702092 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:06:21.702150 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:06:26.731439 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:06:26.731669 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:06:28.731786 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:06:32.732275 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:06:32.732372 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:06:47.739380 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:06:47.739547 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:06:47.739641 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:06:47.739795 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:06:47.739887 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:06:52.781013 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:06:52.781453 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:06:54.781591 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:06:58.782089 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:06:58.782163 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:07:13.797291 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:07:13.797425 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:07:13.797493 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:07:13.797614 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:07:13.797740 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:07:18.864996 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:07:18.865341 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:07:20.865465 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:07:24.865975 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:07:24.866065 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:07:39.881192 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:07:39.881327 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:07:39.881381 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:07:39.881479 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:07:39.881542 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:07:44.921671 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:07:44.921866 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:07:46.921981 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:07:50.922446 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:07:50.922497 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:08:05.936336 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:08:05.936517 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:08:05.936590 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:08:05.936723 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:08:05.936829 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:08:11.003368 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:08:11.003568 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:08:13.003684 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:08:17.004073 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:08:17.004119 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:08:32.019199 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:08:32.019306 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:08:32.019351 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:08:32.019443 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:08:32.019490 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:08:40.091075 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:08:40.091326 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:08:42.091445 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:08:46.091962 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:08:46.092053 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:09:01.107194 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:09:01.107337 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:09:01.107399 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:09:01.107506 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:09:01.107574 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:09:06.236685 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:09:06.236965 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:09:08.237082 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:09:12.237536 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:09:12.237615 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:09:27.248492 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:09:27.248757 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:09:27.248838 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:09:27.248993 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:09:27.249085 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:09:32.291285 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:09:32.291718 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:09:34.291846 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:09:38.292317 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:09:38.292402 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:09:53.305600 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:09:53.305771 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:09:53.305832 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:09:53.305934 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:09:53.306007 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:09:58.350709 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:09:58.350944 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:10:00.351052 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:10:04.351549 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:10:04.351647 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:10:19.361100 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:10:19.361243 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:10:19.361305 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:10:19.361395 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:10:19.361450 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:10:24.399653 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:10:24.399893 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:10:26.400014 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:10:30.400487 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:10:30.400563 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:10:45.413681 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:10:45.413879 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:10:45.413954 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:10:45.414058 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:10:45.414130 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:10:50.490696 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:10:50.490948 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:10:52.491081 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:10:56.491568 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:10:56.491648 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:11:11.506773 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:11:11.506916 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:11:11.506989 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:11:11.507108 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:11:11.507187 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:11:16.549985 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:11:16.550228 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:11:18.550343 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:11:22.550822 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:11:22.550899 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:11:37.556654 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:11:37.556767 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:11:37.556808 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:11:37.556877 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:11:37.556926 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.
+I20240202 11:11:42.595583 10869 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 11:11:42.595889 10869 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 11:11:44.596007 10869 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 11:11:48.596433 10869 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 11:11:48.596508 10869 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+E20240202 11:12:01.212370 10869 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 11:12:01.212473 10869 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 11:12:01.212515 10869 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:12:01.212549 10869 al_rtk_raw_driver.cpp:591] serial disconnect
+I20240202 11:12:01.212584 10869 al_rtk_raw_driver.cpp:610] reconnect serial port after 5 seconds.

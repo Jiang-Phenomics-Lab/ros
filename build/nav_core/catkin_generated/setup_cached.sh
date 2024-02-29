@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autolabor/catkin_ws/devel/.private/nav_core:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/autolabor/catkin_ws/devel/.private/nav_core/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/autolabor/catkin_ws/devel/.private/nav_core/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/opt/autolabor/ros/catkin_ws/build/nav_core'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/autolabor/catkin_ws/devel/.private/nav_core/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/autolabor/catkin_ws/src/navigation/nav_core:$ROS_PACKAGE_PATH"

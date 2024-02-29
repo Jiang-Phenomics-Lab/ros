@@ -1,0 +1,15 @@
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/geometry_msgs/PointStamped.h:10[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_datatypes.h:36[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:[m[K In constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&)[m[K’:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:413:10:[m[K [01;31m[Kerror: [m[K‘[01m[K__a[m[K’ was not declared in this scope
+  : _Base([01;31m[K__a[m[K)
+          [01;31m[K^~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:413:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KW_a[m[K’
+  : _Base([01;36m[K__a[m[K)
+          [01;36m[K^~~[m[K
+          [32m[KW_a[m[K
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+make: *** [all] Error 2

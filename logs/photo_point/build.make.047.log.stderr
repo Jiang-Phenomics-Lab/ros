@@ -1,0 +1,10 @@
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:[m[K In function ‘[01m[Kvoid photo_point::callback(const ConstPtr&)[m[K’:
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:50:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krecord_path_point_[m[K’
+   [01;31m[Krecord_path_point_[m[K = *msg;
+   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autolabor/catkin_ws/src/navigation/photo_point/src/photo_point.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+     [01;31m[Kif[m[K(distance < min){
+     [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/photo_point.dir/src/photo_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/photo_point.dir/all] Error 2
+make: *** [all] Error 2

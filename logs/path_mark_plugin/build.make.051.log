@@ -1,0 +1,167 @@
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target path_server_generate_messages_lisp
+[  0%] Built target path_server_generate_messages_eus
+[  0%] Built target rviz_generate_messages_eus
+[  0%] Built target rviz_generate_messages_cpp
+[  0%] Built target path_server_generate_messages_py
+[  0%] Built target rviz_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rviz_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target path_server_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target path_server_generate_messages_nodejs
+[  0%] Built target rviz_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[ 25%] [34m[1mAutomatic MOC for target path_mark_plugin[0m
+[ 25%] Built target path_mark_plugin_autogen
+[ 75%] [32mBuilding CXX object CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:48:0[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:52[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/opt/ros/melodic/include/rviz/panel.h:32[m[K,
+                 from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/../../../../../../../../home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:5[m[K,
+                 from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/S4CJDHEQGL/moc_path_mark_plugin.cpp:9[m[K,
+                 from [01m[K/opt/autolabor/ros/catkin_ws/build/path_mark_plugin/path_mark_plugin_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:[m[K In static member function ‘[01m[Kstatic QSharedPointer<T> QSharedPointer<T>::create(Args&& ...)[m[K’:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:430:17:[m[K [01;31m[Kerror: [m[K‘[01m[KQtSharedPointer[m[K’ does not name a type; did you mean ‘[01m[KQSharedPointer[m[K’?
+         typedef [01;31m[KQtSharedPointer[m[K*:ExternalRefCountWithContiguousData<T> Private;
+                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+                 [32m[KQSharedPointer[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:434:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPrivate[m[K’ has not been declared
+         typename [01;31m[KPrivate[m[K::DestroyerFn destroy = &Private::deleter;
+                  [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:434:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kdestroy[m[K’
+         typename Private::DestroyerFn [01;31m[Kdestroy[m[K = &Private::deleter;
+                                       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:436:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPrivate[m[K’ has not been declared
+         typename [01;31m[KPrivate[m[K::DestroyerFn noDestroy = &Private::noDeleter;
+                  [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:436:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KnoDestroy[m[K’
+         typename Private::DestroyerFn [01;31m[KnoDestroy[m[K = &Private::noDeleter;
+                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:438:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPrivate[m[K’ has not been declared
+         result.d = [01;31m[KPrivate[m[K::create(&result.value, noDestroy);
+                    [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:438:51:[m[K [01;31m[Kerror: [m[K‘[01m[KnoDestroy[m[K’ was not declared in this scope
+         result.d = Private::create(&result.value, [01;31m[KnoDestroy[m[K);
+                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:438:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgetentropy[m[K’
+         result.d = Private::create(&result.value, [01;36m[KnoDestroy[m[K);
+                                                   [01;36m[K^~~~~~~~~[m[K
+                                                   [32m[Kgetentropy[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:442:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestroy[m[K’ was not declared in this scope
+         result.d->destroyer = [01;31m[Kdestroy[m[K;
+                               [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:48:0[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:52[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/opt/ros/melodic/include/rviz/panel.h:32[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/include/path_mark_plugin/path_mark_plugin.h:5[m[K,
+                 from [01m[K/home/autolabor/catkin_ws/src/navigation/path_mark_plugin/src/path_mark_plugin.cpp:8[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:[m[K In static member function ‘[01m[Kstatic QSharedPointer<T> QSharedPointer<T>::create(Args&& ...)[m[K’:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:430:17:[m[K [01;31m[Kerror: [m[K‘[01m[KQtSharedPointer[m[K’ does not name a type; did you mean ‘[01m[KQSharedPointer[m[K’?
+         typedef [01;31m[KQtSharedPointer[m[K*:ExternalRefCountWithContiguousData<T> Private;
+                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+                 [32m[KQSharedPointer[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:434:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPrivate[m[K’ has not been declared
+         typename [01;31m[KPrivate[m[K::DestroyerFn destroy = &Private::deleter;
+                  [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:434:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kdestroy[m[K’
+         typename Private::DestroyerFn [01;31m[Kdestroy[m[K = &Private::deleter;
+                                       [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:436:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPrivate[m[K’ has not been declared
+         typename [01;31m[KPrivate[m[K::DestroyerFn noDestroy = &Private::noDeleter;
+                  [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:436:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KnoDestroy[m[K’
+         typename Private::DestroyerFn [01;31m[KnoDestroy[m[K = &Private::noDeleter;
+                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:438:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPrivate[m[K’ has not been declared
+         result.d = [01;31m[KPrivate[m[K::create(&result.value, noDestroy);
+                    [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:438:51:[m[K [01;31m[Kerror: [m[K‘[01m[KnoDestroy[m[K’ was not declared in this scope
+         result.d = Private::create(&result.value, [01;31m[KnoDestroy[m[K);
+                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:438:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgetentropy[m[K’
+         result.d = Private::create(&result.value, [01;36m[KnoDestroy[m[K);
+                                                   [01;36m[K^~~~~~~~~[m[K
+                                                   [32m[Kgetentropy[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:442:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestroy[m[K’ was not declared in this scope
+         result.d->destroyer = [01;31m[Kdestroy[m[K;
+                               [01;31m[K^~~~~~~[m[K
+CMakeFiles/path_mark_plugin.dir/build.make:75: recipe for target 'CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o' failed
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/path_mark_plugin_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+CMakeFiles/path_mark_plugin.dir/build.make:89: recipe for target 'CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o' failed
+make[2]: *** [CMakeFiles/path_mark_plugin.dir/src/path_mark_plugin.cpp.o] Error 1
+CMakeFiles/Makefile2:2368: recipe for target 'CMakeFiles/path_mark_plugin.dir/all' failed
+make[1]: *** [CMakeFiles/path_mark_plugin.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

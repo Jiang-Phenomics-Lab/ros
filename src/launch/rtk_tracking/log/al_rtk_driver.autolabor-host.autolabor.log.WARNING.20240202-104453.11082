@@ -1,0 +1,158 @@
+Log file created at: 2024/02/02 10:44:53
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240202 10:44:53.520640 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:44:53.521339 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:44:53.613655 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:44:53.613852 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:45:24.665470 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 10:45:24.665616 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:45:29.783111 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:45:29.783218 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:45:45.084419 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:45:45.084592 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:45:55.312160 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 10:45:55.312254 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:46:05.354424 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:46:05.354526 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:46:32.063782 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:46:32.063879 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:46:55.569535 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:46:55.569710 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:47:24.052778 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:47:24.052913 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:47:47.271049 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:47:47.271189 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:48:15.040603 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:48:15.040753 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:48:39.291275 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:48:39.291441 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:49:05.451642 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:49:05.451737 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:49:30.274075 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:49:30.274215 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:49:55.696696 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:49:55.696835 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:50:21.258913 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:50:21.258975 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:50:46.030913 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:50:46.031090 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:51:12.325585 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:51:12.325749 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:51:37.022106 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:51:37.022276 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:52:03.465893 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:52:03.466130 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:52:28.024560 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:52:28.024724 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:52:38.248320 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 10:52:38.248443 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:52:55.376049 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:52:55.376186 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:53:13.021214 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:53:13.021385 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:53:30.254516 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:53:30.254662 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:53:49.025090 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:53:49.025240 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:54:25.551062 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:54:25.551249 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:54:41.027669 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:54:41.027813 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:54:51.239204 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 10:54:51.239364 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:55:02.309279 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:55:02.309449 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:55:27.033978 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:55:27.034124 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:55:47.048238 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:55:47.048362 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:55:52.389696 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:55:52.389791 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:56:07.253489 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:56:07.253588 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:56:27.274412 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:56:27.274560 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:56:27.394829 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:56:27.394968 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:56:48.039062 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:56:48.039192 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:57:02.509235 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:57:02.509388 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:57:13.515645 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:57:13.515729 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:57:33.526480 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:57:33.526576 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:57:37.518482 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:57:37.518594 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:57:54.045877 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:57:54.046062 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:58:12.670728 11082 al_rtk_raw_driver.cpp:127] monitor of gpgga-live-check was time-out. reconnect rtk device.
+E20240202 10:58:12.670878 11082 al_rtk_raw_driver.cpp:591] serial disconnect
+E20240202 10:58:14.043387 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:58:14.043542 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:58:38.674789 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:58:38.674926 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:58:58.674921 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:58:58.675057 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:59:18.679724 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:59:18.679884 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:59:38.678238 11082 al_rtk_raw_driver.cpp:371] ntrip service validate timeout.
+E20240202 10:59:38.678386 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:00:12.047885 11082 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 11:00:12.048024 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:00:40.316272 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:00:40.316372 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:01:03.620566 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:01:03.620640 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:01:28.346117 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:01:28.346261 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:01:50.924315 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:01:50.924477 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:02:19.791504 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:02:19.791683 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:02:49.721670 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:02:49.721817 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:03:16.866045 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:03:16.866212 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:03:37.853691 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:03:37.853848 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:03:59.369572 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:03:59.369732 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:04:27.226502 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:04:27.226645 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:04:52.924880 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:04:52.925024 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:05:19.124208 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:05:19.124379 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:05:45.802856 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:05:45.803036 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:06:17.032562 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:06:17.032709 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:06:47.060966 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:06:47.061149 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:07:15.903257 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:07:15.903396 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:07:26.054302 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:07:26.054445 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:07:55.716130 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:07:55.716230 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:08:21.266714 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:08:21.266847 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:08:47.409159 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:08:47.409308 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:09:14.538504 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:09:14.538651 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:09:51.646443 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:09:51.646605 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:10:12.913597 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:10:12.913800 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:10:43.325785 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:10:43.325949 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:11:08.616595 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:11:08.616734 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:11:29.709185 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:11:29.709365 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 11:11:52.324998 11082 al_rtk_raw_driver.cpp:486] Error on read socket error  :Success
+E20240202 11:11:52.325146 11082 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

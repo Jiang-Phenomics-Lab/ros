@@ -1,0 +1,8 @@
+Log file created at: 2024/02/02 10:39:53
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240202 10:39:53.912528 10321 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:39:53.913283 10321 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+E20240202 10:40:14.044780 10321 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:40:14.044909 10321 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

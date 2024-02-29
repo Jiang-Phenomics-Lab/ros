@@ -1,0 +1,17 @@
+Log file created at: 2024/02/04 10:12:29
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240204 10:12:29.413709  9138 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240204 10:12:29.487315  9138 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240204 10:12:29.487840  9138 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240204 10:12:31.487946  9138 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240204 10:12:35.488479  9138 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240204 10:12:35.488600  9138 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240204 10:12:35.555191  9138 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+E20240204 10:12:35.555258  9138 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:12:40.558122  9138 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240204 10:12:45.600735  9138 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240204 10:12:45.668503  9138 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+E20240204 10:12:45.668584  9138 al_rtk_raw_driver.cpp:317] ntrip service validate failed, please check account and password is correct.
+E20240204 10:12:50.670354  9138 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.

@@ -14,5 +14,8 @@
         "%PYTHONPATH",
         "/home/autolabor/anaconda3/envs/ros/bin/python3.6m",
         "/home/autolabor/Desktop/pyorbbecsdk/install/lib/"
-    ]
+    ],
+    "files.associations": {
+        "iosfwd": "cpp"
+    }
 }

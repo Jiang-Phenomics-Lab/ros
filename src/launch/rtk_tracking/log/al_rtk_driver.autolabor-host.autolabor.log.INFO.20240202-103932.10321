@@ -1,0 +1,24 @@
+Log file created at: 2024/02/02 10:39:32
+Running on machine: autolabor-host
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240202 10:39:32.525800 10321 al_rtk_raw_driver.cpp:726] start rtk driver
+I20240202 10:39:32.722008 10321 al_rtk_raw_driver.cpp:624] connect to serial port of rtk device.
+I20240202 10:39:32.722404 10321 al_rtk_raw_driver.cpp:640] serial port of rtk device connected.
+I20240202 10:39:34.722712 10321 al_rtk_raw_driver.cpp:235] rtk device initializing.
+I20240202 10:39:38.723227 10321 al_rtk_raw_driver.cpp:266] rtk device initialized.
+I20240202 10:39:38.723345 10321 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240202 10:39:38.913120 10321 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240202 10:39:38.913195 10321 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240202 10:39:53.912528 10321 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:39:53.913283 10321 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:39:58.958359 10321 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240202 10:39:59.040582 10321 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240202 10:39:59.040663 10321 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+E20240202 10:40:14.044780 10321 al_rtk_raw_driver.cpp:465] monitor of ntrip service  was time-out. reconnect ntrip service.
+E20240202 10:40:14.044909 10321 al_rtk_raw_driver.cpp:388] ntrip service socket disconnect.
+I20240202 10:40:19.093318 10321 al_rtk_raw_driver.cpp:412] ntrip service socket connected.
+I20240202 10:40:19.202457 10321 al_rtk_raw_driver.cpp:330] ntrip service validate msg received.
+I20240202 10:40:19.202534 10321 al_rtk_raw_driver.cpp:277] ntrip service validate passed.
+I20240202 10:40:19.202591 10321 al_rtk_raw_driver.cpp:286] send first gpgga to ntrip service :$GPGGA,023959.00,4000.26073307,N,11622.40864885,E,1,10,5.7,28.2424,M,-9.2310,M,,*48
+  1
