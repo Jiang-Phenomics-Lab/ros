@@ -29,9 +29,9 @@ namespace autolabor_tools {
                 first_record_ = false;
             } else if (norm2(cache_x_ - x, cache_y_ - y, 0) > (distance_interval_ * distance_interval_)) {
                 record_data(x, y, yaw);
-		if(norm2(cache_x_p - x, cache_y_p - y, 0) > (distance_interval_point_ * distance_interval_point_)){
+		//if(norm2(cache_x_p - x, cache_y_p - y, 0) > (distance_interval_point_ * distance_interval_point_)){
 		record_data_point(x, y, yaw);
-		}
+		//}
             }
             
         }

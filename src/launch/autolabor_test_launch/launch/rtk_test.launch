@@ -4,8 +4,8 @@
             <param name="serial_device" value="/dev/box_3"/>
             <param name="badurate" value="115200"/>
             <param name="domain" value="rtk.ntrip.qxwz.com"/>
-            <param name="account" value=""/>
-            <param name="password" value=""/>
+            <param name="account" value="beidou0084"/>
+            <param name="password" value="e8f29d2"/>
             <param name="publish_pos_fix_only" value="true"/>
             <param name="auto_use_first_fix_as_enu_origin" value="true" />
             <param name="origin_config_file" value="$(find autolabor_test_launch)/params/rtk_tracking_enu_origin.json"/>

@@ -46,6 +46,7 @@ namespace photo_point {
 	random_numbers::RandomNumberGenerator generator_;
 	ros::Publisher start_task_pub_, cancel_task_pub_;
 	nav_msgs::Path record_path_point_;
+	nav_msgs::Path record_path_point_1;
 	void callback(const nav_msgs::Path::ConstPtr &msg);
 }
 

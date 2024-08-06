@@ -129,7 +129,7 @@ shrink_horizon_min_duration: 10.0
 #=======================
 
 # Minimum desired separation from obstacles in meters (double, default: 0.5)
-min_obstacle_dist: 0.4
+min_obstacle_dist: 0.3
 
 # Specify if obstacles of the local costmap should be taken into account. Each cell that is marked as obstacle is considered as a point-obstacle. Therefore do not choose a very small resolution of the costmap since it increases computation time. In future releases this circumstance is going to be addressed as well as providing an additional api for dynamic obstacles. (bool, default: true)
 include_costmap_obstacles: true
